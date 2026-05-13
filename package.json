@@ -1,15 +1,23 @@
 {
   "name": "stackoverfolk",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool for converting numbers between different bases",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "stackoverfolk": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "StackOverFolk.png"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Wisarut_folk",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.6.2",
     "figlet": "^1.11.0",

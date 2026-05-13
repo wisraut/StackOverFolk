@@ -1,14 +1,12 @@
 #!/usr/bin/env node
 
-import figlet from 'figlet';
 import chalk from 'chalk';
 import { askFromBase, askToBase, askNumber, askAgain } from './src/prompts.js';
 import { convert } from './src/converter.js';
+import { printBanner } from './src/banner.js';
 
 async function main() {
-  console.log(
-    chalk.cyan(figlet.textSync('BaseConverter', { horizontalLayout: 'flush' }))
-  );
+  await printBanner();
   console.log(chalk.gray('Convert numbers between binary, octal, decimal, and hex\n'));
 
   let running = true;
