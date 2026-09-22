@@ -4,6 +4,7 @@ import React from 'react';
 import { render } from 'ink';
 import { App } from './src/app.js';
 import { playBannerAnimation, printBanner } from './src/banner.js';
+import { handoffInputToInk } from './src/terminal-input.js';
 
 function shouldAnimate(args) {
   if (args.includes('--no-animation')) return false;
@@ -26,8 +27,13 @@ async function main() {
     await printBanner();
   }
 
+  const releaseInput = handoffInputToInk();
   const application = render(React.createElement(App));
-  await application.waitUntilExit();
+  try {
+    await application.waitUntilExit();
+  } finally {
+    releaseInput();
+  }
 }
 
 main().catch((error) => {
