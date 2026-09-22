@@ -1,0 +1,134 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1789526687.5906675,
+    "seen": 1789528188.791504,
+    "ast_hash": "475ffbac3c6f4382bf82a654c6208f27",
+    "semantic_hash": "475ffbac3c6f4382bf82a654c6208f27"
+  },
+  "index.js": {
+    "mtime": 1790061722.556775,
+    "seen": 1790063859.8435526,
+    "ast_hash": "0c656f3dad99ee69422be2dc3e67aea2",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1790062645.6459854,
+    "seen": 1790063859.8435526,
+    "ast_hash": "d25ca1c034db5fe750c7ae19730cd4ff",
+    "semantic_hash": ""
+  },
+  "src/banner.js": {
+    "mtime": 1790062769.4074647,
+    "seen": 1790063859.8435526,
+    "ast_hash": "0c8448878e5b0812903cf83d98b6165d",
+    "semantic_hash": ""
+  },
+  "src/converter.js": {
+    "mtime": 1790061407.8902214,
+    "seen": 1790063859.8435526,
+    "ast_hash": "5e266e12e8c941c2f939d36a59b7743e",
+    "semantic_hash": ""
+  },
+  "StackOverFolk.png": {
+    "mtime": 1789526687.5966668,
+    "seen": 1789528188.791504,
+    "ast_hash": "740892ed957bff7bf5ee7686cb629eb9",
+    "semantic_hash": "740892ed957bff7bf5ee7686cb629eb9"
+  },
+  "src/app.js": {
+    "mtime": 1790062765.594236,
+    "seen": 1790063859.8435526,
+    "ast_hash": "3ccf4fd6533313f8173b9f7eb13b9c15",
+    "semantic_hash": ""
+  },
+  "src/journey.js": {
+    "mtime": 1790061411.0980318,
+    "seen": 1790063859.8435526,
+    "ast_hash": "6801e36841dcd6de2429caa08ec30593",
+    "semantic_hash": ""
+  },
+  "test/app.test.js": {
+    "mtime": 1790062772.9520404,
+    "seen": 1790063859.8435526,
+    "ast_hash": "a418fdb2b38fb4fa4b1fc3a9277dc312",
+    "semantic_hash": ""
+  },
+  "test/banner.test.js": {
+    "mtime": 1790062500.1206102,
+    "seen": 1790063859.8435526,
+    "ast_hash": "9f1f0debab54582418ce1d5041c31f58",
+    "semantic_hash": ""
+  },
+  "test/converter.test.js": {
+    "mtime": 1790061952.7408624,
+    "seen": 1790063859.8435526,
+    "ast_hash": "e30f16717b0ab3e8ddab5c3708f4ab5d",
+    "semantic_hash": ""
+  },
+  "test/journey.test.js": {
+    "mtime": 1790061844.011016,
+    "seen": 1790063859.8435526,
+    "ast_hash": "80743d861ad90c8237e37df5a1c26188",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1790062641.9217896,
+    "seen": 1790063859.8435526,
+    "ast_hash": "995cf708c9cfbe829cc1c5848218b1d5",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1790061898.7873113,
+    "seen": 1790063859.8435526,
+    "ast_hash": "fc68cee8e428ae95c72535779341d39e",
+    "semantic_hash": ""
+  },
+  "PROJECT_PLAN.md": {
+    "mtime": 1790063775.120767,
+    "seen": 1790063859.8435526,
+    "ast_hash": "965cd1a40b19fb2c1ee990f2f20650fc",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1790062638.651403,
+    "seen": 1790063859.8435526,
+    "ast_hash": "4b137811f441600c1ba16868ed0663d8",
+    "semantic_hash": ""
+  },
+  "graphify-out/memory/query_20260916_031718_85ad7fb6_upgrade_stackoverfolk_from_base_conversion_cli_int.md": {
+    "mtime": 1789528638.484264,
+    "seen": 1790063859.8435526,
+    "ast_hash": "28dffc7b3e9f541ef815f0bc005484b6",
+    "semantic_hash": ""
+  },
+  "graphify-out/memory/query_20260916_032407_9b060482_\u0e15\u0e2d\u0e19\u0e19__\u0e40\u0e23__\u0e2d\u0e07_feature_\u0e2b\u0e25_\u0e01\u0e44\u0e21_\u0e21_\u0e1b_\u0e0d\u0e2b\u0e32\u0e23__\u0e27_\u0e32\u0e17\u0e33\u0e44\u0e14_\u0e2d\u0e22.md": {
+    "mtime": 1789529047.704961,
+    "seen": 1790063859.8435526,
+    "ast_hash": "8871fb772457a5d10d116d8a0808ddd8",
+    "semantic_hash": ""
+  },
+  "graphify-out/memory/query_20260916_033523_234c2f95_\u0e17_\u0e19__\u0e2d\u0e22\u0e32\u0e01\u0e43\u0e2b_\u0e40\u0e25\u0e32\u0e17__\u0e44\u0e14_\u0e1c\u0e25\u0e1e_\u0e1e\u0e22_\u0e40\u0e40\u0e25_\u0e27\u0e01\u0e32\u0e23\u0e43\u0e2a__inpur_\u0e04_\u0e32\u0e15.md": {
+    "mtime": 1789529723.4454935,
+    "seen": 1790063859.8435526,
+    "ast_hash": "0b9509265802959ae67050abdb7a8319",
+    "semantic_hash": ""
+  },
+  "graphify-out/memory/query_20260916_034150_992a11fa_\u0e2d_\u0e19\u0e19__\u0e04_\u0e2d\u0e41\u0e1e\u0e25\u0e19\u0e04\u0e25_\u0e32\u0e27\u0e46\u0e2d\u0e19\u0e32\u0e04\u0e15\u0e15\u0e2d\u0e19\u0e17\u0e33\u0e43\u0e0a_mode__\u0e2d__\u0e19\u0e17\u0e33_terra.md": {
+    "mtime": 1789530110.9863605,
+    "seen": 1790063859.8435526,
+    "ast_hash": "474271df6f273a25a4d649bca37ef091",
+    "semantic_hash": ""
+  },
+  "graphify-out/memory/query_20260922_064630_3accf688_\u0e17_\u0e19__\u0e40\u0e2b\u0e25_\u0e2d\u0e17\u0e33\u0e2d\u0e30\u0e44\u0e23\u0e15_\u0e01_\u0e2d\u0e19\u0e17__\u0e08\u0e30\u0e40\u0e23__\u0e21\u0e07\u0e32\u0e19.md": {
+    "mtime": 1790059590.3371913,
+    "seen": 1790063859.8435526,
+    "ast_hash": "3b25085580e160760b7e709c6d9557ba",
+    "semantic_hash": ""
+  },
+  "assets/stackoverfolk-logo.svg": {
+    "mtime": 1790061904.8954365,
+    "seen": 1790063859.8435526,
+    "ast_hash": "704a9d0404fe8e49ebc50874e8a5810d",
+    "semantic_hash": ""
+  }
+}
