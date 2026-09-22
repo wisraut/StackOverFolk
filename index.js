@@ -1,38 +1,36 @@
 #!/usr/bin/env node
 
-import chalk from 'chalk';
-import { askFromBase, askToBase, askNumber, askAgain } from './src/prompts.js';
-import { convert } from './src/converter.js';
-import { printBanner } from './src/banner.js';
+import React from 'react';
+import { render } from 'ink';
+import { App } from './src/app.js';
+import { playBannerAnimation, printBanner } from './src/banner.js';
 
-async function main() {
-  await printBanner();
-  console.log(chalk.gray('Convert numbers between binary, octal, decimal, and hex\n'));
-
-  let running = true;
-
-  while (running) {
-    const fromBase = await askFromBase();
-    const toBase = await askToBase(fromBase);
-    const input = await askNumber(fromBase);
-
-    const result = convert(input, fromBase, toBase);
-
-    console.log(
-      '\n' +
-      chalk.green('Result: ') +
-      chalk.white.bold(input) +
-      chalk.gray(` (base ${fromBase})`) +
-      chalk.yellow('  →  ') +
-      chalk.white.bold(result) +
-      chalk.gray(` (base ${toBase})`) +
-      '\n'
-    );
-
-    running = await askAgain();
-  }
-
-  console.log(chalk.cyan('\nGoodbye!\n'));
+function shouldAnimate(args) {
+  if (args.includes('--no-animation')) return false;
+  if (process.env.CI === 'true') return false;
+  return Boolean(process.stdin.isTTY && process.stdout.isTTY);
 }
 
-main();
+async function main() {
+  const args = process.argv.slice(2);
+  const interactive = Boolean(process.stdin.isTTY && process.stdout.isTTY && process.env.CI !== 'true');
+
+  if (!interactive) {
+    await printBanner();
+    return;
+  }
+
+  if (shouldAnimate(args)) {
+    await playBannerAnimation({ reducedMotion: process.env.STACKOVERFOLK_REDUCED_MOTION === '1' });
+  } else {
+    await printBanner();
+  }
+
+  const application = render(React.createElement(App));
+  await application.waitUntilExit();
+}
+
+main().catch((error) => {
+  process.stderr.write(`StackOverFolk could not start: ${error.message}\n`);
+  process.exitCode = 1;
+});
