@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">StackOverFolk</title><desc id="desc">Hand-drawn green glasses with a gold data path.</desc>
+  <g fill="none" stroke="#2D6A3F" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="18" d="M80 125c15-72 145-84 220-32 23 16 27 70 5 98-49 57-188 35-225-66Z"/>
+    <path stroke-width="18" d="M660 125c15-72 145-84 220-32 23 16 27 70 5 98-49 57-188 35-225-66Z"/>
+    <path stroke-width="15" d="M300 132c68-36 292-36 360 0"/>
+    <path stroke-width="11" d="M80 118 28 93M880 118l52-25"/>
+  </g>
+  <path d="M307 132h346" stroke="#C8860A" stroke-width="9" stroke-linecap="round"/>
+  <text x="111" y="142" fill="#2D6A3F" font-family="monospace" font-size="22">0100 0010</text>
+  <text x="695" y="142" fill="#2D6A3F" font-family="monospace" font-size="22">42 55</text>
+  <text x="220" y="244" fill="#C8860A" font-family="monospace" font-size="54" font-weight="700">StackOver</text>
+  <text x="590" y="244" fill="#2D6A3F" font-family="monospace" font-size="54" font-weight="700">Folk</text>
+</svg>
