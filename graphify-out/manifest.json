@@ -18,9 +18,9 @@
     "semantic_hash": ""
   },
   "src/banner.js": {
-    "mtime": 1790062769.4074647,
-    "seen": 1790063859.8435526,
-    "ast_hash": "0c8448878e5b0812903cf83d98b6165d",
+    "mtime": 1790135058.1074739,
+    "seen": 1790135128.1245642,
+    "ast_hash": "d04c0b335332d5a7542e25d3e45149a6",
     "semantic_hash": ""
   },
   "src/converter.js": {
@@ -36,9 +36,9 @@
     "semantic_hash": "740892ed957bff7bf5ee7686cb629eb9"
   },
   "src/app.js": {
-    "mtime": 1790133890.3537524,
-    "seen": 1790133933.8048656,
-    "ast_hash": "923188ac104995569646a0e9e75b2228",
+    "mtime": 1790134395.356738,
+    "seen": 1790135128.1245642,
+    "ast_hash": "27474a0cf27ebd0a6e8a116d6f63a093",
     "semantic_hash": ""
   },
   "src/journey.js": {
@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "test/banner.test.js": {
-    "mtime": 1790062500.1206102,
-    "seen": 1790063859.8435526,
-    "ast_hash": "9f1f0debab54582418ce1d5041c31f58",
+    "mtime": 1790135058.1084735,
+    "seen": 1790135128.1245642,
+    "ast_hash": "5ecf434541dfba22942fad6c37591de7",
     "semantic_hash": ""
   },
   "test/converter.test.js": {
@@ -90,9 +90,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1790133890.3547533,
-    "seen": 1790133933.8048656,
-    "ast_hash": "74e4551f5d5e04574359265587f25ff6",
+    "mtime": 1790134395.3587413,
+    "seen": 1790135128.1245642,
+    "ast_hash": "354bf22fd4c00517a21d87f95f0efcc4",
     "semantic_hash": ""
   },
   "graphify-out/memory/query_20260916_031718_85ad7fb6_upgrade_stackoverfolk_from_base_conversion_cli_int.md": {
@@ -162,9 +162,9 @@
     "semantic_hash": ""
   },
   "test/home.test.js": {
-    "mtime": 1790133890.3567526,
-    "seen": 1790133933.8048656,
-    "ast_hash": "4f75ad7eaea6ddc3699d2ae91ada900d",
+    "mtime": 1790134395.3597467,
+    "seen": 1790135128.1245642,
+    "ast_hash": "6c363db934dcdd11b780bd50e8cb7bc9",
     "semantic_hash": ""
   },
   "test/terminal-input.test.js": {

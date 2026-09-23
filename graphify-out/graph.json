@@ -14,7 +14,7 @@
       "file_type": "code",
       "norm_label": "mockinput",
       "source_file": "test/banner.test.js",
-      "source_location": "L23"
+      "source_location": "L30"
     },
     {
       "id": "src_operations_hash_cryptooperationerror",
@@ -67,18 +67,6 @@
       "source_location": "L9"
     },
     {
-      "id": "src_app_animatedlogo",
-      "label": "AnimatedLogo()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "banner.js",
-      "file_type": "code",
-      "norm_label": "animatedlogo()",
-      "source_file": "src/app.js",
-      "source_location": "L39"
-    },
-    {
       "id": "src_banner_createbanner",
       "label": "createBanner()",
       "_callable": true,
@@ -88,7 +76,7 @@
       "file_type": "code",
       "norm_label": "createbanner()",
       "source_file": "src/banner.js",
-      "source_location": "L22"
+      "source_location": "L71"
     },
     {
       "id": "src_banner_cropreveal",
@@ -100,7 +88,7 @@
       "file_type": "code",
       "norm_label": "cropreveal()",
       "source_file": "src/banner.js",
-      "source_location": "L71"
+      "source_location": "L112"
     },
     {
       "id": "src_banner_deterministicnoise",
@@ -112,7 +100,19 @@
       "file_type": "code",
       "norm_label": "deterministicnoise()",
       "source_file": "src/banner.js",
-      "source_location": "L66"
+      "source_location": "L107"
+    },
+    {
+      "id": "src_banner_findinkbounds",
+      "label": "findInkBounds()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "findinkbounds()",
+      "source_file": "src/banner.js",
+      "source_location": "L23"
     },
     {
       "id": "src_banner_getbanner",
@@ -124,7 +124,31 @@
       "file_type": "code",
       "norm_label": "getbanner()",
       "source_file": "src/banner.js",
-      "source_location": "L50"
+      "source_location": "L91"
+    },
+    {
+      "id": "src_banner_halfblock",
+      "label": "halfBlock()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "halfblock()",
+      "source_file": "src/banner.js",
+      "source_location": "L44"
+    },
+    {
+      "id": "src_banner_imagetohalfblocks",
+      "label": "imageToHalfBlocks()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "imagetohalfblocks()",
+      "source_file": "src/banner.js",
+      "source_location": "L51"
     },
     {
       "id": "src_banner_pixelbrightness",
@@ -136,7 +160,7 @@
       "file_type": "code",
       "norm_label": "pixelbrightness()",
       "source_file": "src/banner.js",
-      "source_location": "L15"
+      "source_location": "L16"
     },
     {
       "id": "src_banner_playbanneranimation",
@@ -148,7 +172,7 @@
       "file_type": "code",
       "norm_label": "playbanneranimation()",
       "source_file": "src/banner.js",
-      "source_location": "L124"
+      "source_location": "L166"
     },
     {
       "id": "src_banner_printbanner",
@@ -160,7 +184,7 @@
       "file_type": "code",
       "norm_label": "printbanner()",
       "source_file": "src/banner.js",
-      "source_location": "L62"
+      "source_location": "L103"
     },
     {
       "id": "src_banner_renderanimationframe",
@@ -172,7 +196,7 @@
       "file_type": "code",
       "norm_label": "renderanimationframe()",
       "source_file": "src/banner.js",
-      "source_location": "L84"
+      "source_location": "L125"
     },
     {
       "id": "src_banner_renderstaticbanner",
@@ -184,7 +208,7 @@
       "file_type": "code",
       "norm_label": "renderstaticbanner()",
       "source_file": "src/banner.js",
-      "source_location": "L55"
+      "source_location": "L96"
     },
     {
       "id": "src_banner_revealword",
@@ -196,7 +220,7 @@
       "file_type": "code",
       "norm_label": "revealword()",
       "source_file": "src/banner.js",
-      "source_location": "L75"
+      "source_location": "L116"
     },
     {
       "id": "src_banner_sleep",
@@ -208,7 +232,7 @@
       "file_type": "code",
       "norm_label": "sleep()",
       "source_file": "src/banner.js",
-      "source_location": "L119"
+      "source_location": "L161"
     },
     {
       "id": "src_terminal_input_handoffinputtoink",
@@ -256,7 +280,7 @@
       "file_type": "code",
       "norm_label": ".on()",
       "source_file": "test/banner.test.js",
-      "source_location": "L28"
+      "source_location": "L35"
     },
     {
       "id": "test_banner_test_mockinput_pause",
@@ -268,7 +292,7 @@
       "file_type": "code",
       "norm_label": ".pause()",
       "source_file": "test/banner.test.js",
-      "source_location": "L27"
+      "source_location": "L34"
     },
     {
       "id": "test_banner_test_mockinput_resume",
@@ -280,7 +304,7 @@
       "file_type": "code",
       "norm_label": ".resume()",
       "source_file": "test/banner.test.js",
-      "source_location": "L26"
+      "source_location": "L33"
     },
     {
       "id": "test_banner_test_mockinput_setrawmode",
@@ -292,7 +316,7 @@
       "file_type": "code",
       "norm_label": ".setrawmode()",
       "source_file": "test/banner.test.js",
-      "source_location": "L25"
+      "source_location": "L32"
     },
     {
       "id": "src_operations_ecc_createeccdecryptjourney",
@@ -451,6 +475,18 @@
       "source_location": "L12"
     },
     {
+      "id": "src_app_animatedlogo",
+      "label": "AnimatedLogo()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "animatedlogo()",
+      "source_file": "src/app.js",
+      "source_location": "L40"
+    },
+    {
       "id": "src_app_app",
       "label": "App()",
       "_callable": true,
@@ -460,7 +496,7 @@
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "src/app.js",
-      "source_location": "L109"
+      "source_location": "L110"
     },
     {
       "id": "src_app_app_close",
@@ -472,7 +508,7 @@
       "file_type": "code",
       "norm_label": "close()",
       "source_file": "src/app.js",
-      "source_location": "L135"
+      "source_location": "L137"
     },
     {
       "id": "src_app_app_cryptojourney",
@@ -484,7 +520,7 @@
       "file_type": "code",
       "norm_label": "cryptojourney()",
       "source_file": "src/app.js",
-      "source_location": "L139"
+      "source_location": "L141"
     },
     {
       "id": "src_app_app_enteroperation",
@@ -496,7 +532,7 @@
       "file_type": "code",
       "norm_label": "enteroperation()",
       "source_file": "src/app.js",
-      "source_location": "L136"
+      "source_location": "L138"
     },
     {
       "id": "src_app_app_gohome",
@@ -508,7 +544,7 @@
       "file_type": "code",
       "norm_label": "gohome()",
       "source_file": "src/app.js",
-      "source_location": "L137"
+      "source_location": "L139"
     },
     {
       "id": "src_app_app_openpicker",
@@ -520,7 +556,7 @@
       "file_type": "code",
       "norm_label": "openpicker()",
       "source_file": "src/app.js",
-      "source_location": "L138"
+      "source_location": "L140"
     },
     {
       "id": "src_app_app_reuseandswitch",
@@ -532,7 +568,7 @@
       "file_type": "code",
       "norm_label": "reuseandswitch()",
       "source_file": "src/app.js",
-      "source_location": "L157"
+      "source_location": "L159"
     },
     {
       "id": "src_app_app_run",
@@ -544,7 +580,7 @@
       "file_type": "code",
       "norm_label": "run()",
       "source_file": "src/app.js",
-      "source_location": "L147"
+      "source_location": "L149"
     },
     {
       "id": "src_app_basepicker",
@@ -556,7 +592,7 @@
       "file_type": "code",
       "norm_label": "basepicker()",
       "source_file": "src/app.js",
-      "source_location": "L101"
+      "source_location": "L102"
     },
     {
       "id": "src_app_companion",
@@ -568,7 +604,7 @@
       "file_type": "code",
       "norm_label": "companion()",
       "source_file": "src/app.js",
-      "source_location": "L28"
+      "source_location": "L29"
     },
     {
       "id": "src_app_home",
@@ -580,7 +616,7 @@
       "file_type": "code",
       "norm_label": "home()",
       "source_file": "src/app.js",
-      "source_location": "L51"
+      "source_location": "L52"
     },
     {
       "id": "src_app_journey",
@@ -592,7 +628,7 @@
       "file_type": "code",
       "norm_label": "journey()",
       "source_file": "src/app.js",
-      "source_location": "L70"
+      "source_location": "L71"
     },
     {
       "id": "src_app_logolooptimeline",
@@ -604,7 +640,7 @@
       "file_type": "code",
       "norm_label": "logolooptimeline()",
       "source_file": "src/app.js",
-      "source_location": "L32"
+      "source_location": "L33"
     },
     {
       "id": "src_app_modechoices",
@@ -616,7 +652,7 @@
       "file_type": "code",
       "norm_label": "modechoices()",
       "source_file": "src/app.js",
-      "source_location": "L26"
+      "source_location": "L27"
     },
     {
       "id": "src_app_rail",
@@ -628,7 +664,7 @@
       "file_type": "code",
       "norm_label": "rail()",
       "source_file": "src/app.js",
-      "source_location": "L65"
+      "source_location": "L66"
     },
     {
       "id": "src_app_truncate",
@@ -640,7 +676,7 @@
       "file_type": "code",
       "norm_label": "truncate()",
       "source_file": "src/app.js",
-      "source_location": "L27"
+      "source_location": "L28"
     },
     {
       "id": "test_app_test_submit",
@@ -2031,7 +2067,7 @@
       "file_type": "code",
       "norm_label": "items",
       "source_file": "src/app.js",
-      "source_location": "L13"
+      "source_location": "L14"
     },
     {
       "id": "src_app_modes",
@@ -2053,7 +2089,7 @@
       "file_type": "code",
       "norm_label": "palette",
       "source_file": "src/app.js",
-      "source_location": "L24"
+      "source_location": "L25"
     },
     {
       "id": "src_app_views",
@@ -2982,7 +3018,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L44",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -2994,7 +3030,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L48",
+      "source_location": "L49",
       "weight": 1.0
     },
     {
@@ -3006,7 +3042,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L48",
+      "source_location": "L49",
       "weight": 1.0
     },
     {
@@ -3018,7 +3054,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L112",
+      "source_location": "L113",
       "weight": 1.0
     },
     {
@@ -3030,7 +3066,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L131",
+      "source_location": "L133",
       "weight": 1.0
     },
     {
@@ -3042,7 +3078,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L140",
+      "source_location": "L142",
       "weight": 1.0
     },
     {
@@ -3054,7 +3090,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L143",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -3066,7 +3102,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L145",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -3078,7 +3114,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L145",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -3090,7 +3126,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L150",
+      "source_location": "L152",
       "weight": 1.0
     },
     {
@@ -3102,7 +3138,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L208",
+      "source_location": "L220",
       "weight": 1.0
     },
     {
@@ -3114,7 +3150,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L226",
+      "source_location": "L238",
       "weight": 1.0
     },
     {
@@ -3126,7 +3162,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L231",
+      "source_location": "L243",
       "weight": 1.0
     },
     {
@@ -3138,7 +3174,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L140",
+      "source_location": "L142",
       "weight": 1.0
     },
     {
@@ -3150,7 +3186,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L143",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -3162,7 +3198,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L145",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -3174,7 +3210,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L145",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -3186,7 +3222,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L138",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -3198,7 +3234,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L158",
+      "source_location": "L160",
       "weight": 1.0
     },
     {
@@ -3210,7 +3246,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L150",
+      "source_location": "L152",
       "weight": 1.0
     },
     {
@@ -3222,7 +3258,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L150",
+      "source_location": "L152",
       "weight": 1.0
     },
     {
@@ -3234,7 +3270,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L104",
+      "source_location": "L105",
       "weight": 1.0
     },
     {
@@ -3246,7 +3282,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L104",
+      "source_location": "L105",
       "weight": 1.0
     },
     {
@@ -3258,7 +3294,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L79",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -3270,11 +3306,23 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L89",
+      "source_location": "L90",
       "weight": 1.0
     },
     {
       "source": "src_banner_createbanner",
+      "target": "src_banner_imagetohalfblocks",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/banner.js",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner_findinkbounds",
       "target": "src_banner_pixelbrightness",
       "relation": "calls",
       "_origin": "ast",
@@ -3282,7 +3330,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L32",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -3294,7 +3342,43 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L51",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner_imagetohalfblocks",
+      "target": "src_banner_findinkbounds",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/banner.js",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner_imagetohalfblocks",
+      "target": "src_banner_pixelbrightness",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/banner.js",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner_imagetohalfblocks",
+      "target": "src_banner_halfblock",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/banner.js",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -3306,7 +3390,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L125",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
@@ -3318,7 +3402,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L148",
+      "source_location": "L190",
       "weight": 1.0
     },
     {
@@ -3330,7 +3414,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L151",
+      "source_location": "L193",
       "weight": 1.0
     },
     {
@@ -3342,7 +3426,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L153",
+      "source_location": "L195",
       "weight": 1.0
     },
     {
@@ -3354,7 +3438,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L63",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
@@ -3366,31 +3450,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L63",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner_renderanimationframe",
-      "target": "src_banner_revealword",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "src/banner.js",
-      "source_location": "L102",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner_renderanimationframe",
-      "target": "src_banner_renderstaticbanner",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "src/banner.js",
-      "source_location": "L112",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
@@ -3402,7 +3462,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L92",
+      "source_location": "L133",
       "weight": 1.0
     },
     {
@@ -3414,7 +3474,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L97",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner_renderanimationframe",
+      "target": "src_banner_revealword",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/banner.js",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner_renderanimationframe",
+      "target": "src_banner_renderstaticbanner",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/banner.js",
+      "source_location": "L154",
       "weight": 1.0
     },
     {
@@ -3426,7 +3510,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/banner.js",
-      "source_location": "L79",
+      "source_location": "L120",
       "weight": 1.0
     },
     {
@@ -4386,7 +4470,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "test/banner.test.js",
-      "source_location": "L29",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -4422,7 +4506,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L135",
+      "source_location": "L137",
       "weight": 1.0
     },
     {
@@ -4434,7 +4518,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L136",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
@@ -4446,7 +4530,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L137",
+      "source_location": "L139",
       "weight": 1.0
     },
     {
@@ -4458,7 +4542,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L138",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -4470,7 +4554,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L147",
+      "source_location": "L149",
       "weight": 1.0
     },
     {
@@ -4482,7 +4566,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L157",
+      "source_location": "L159",
       "weight": 1.0
     },
     {
@@ -4506,7 +4590,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "test/banner.test.js",
-      "source_location": "L23",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -4903,6 +4987,18 @@
       "context": "import",
       "source_file": "src/operations/ecc.js",
       "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_banner_test",
+      "target": "src_banner_getbanner",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/banner.test.js",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -6571,18 +6667,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L101",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app",
-      "target": "src_app_app",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app.js",
-      "source_location": "L109",
+      "source_location": "L102",
       "weight": 1.0
     },
     {
@@ -6594,6 +6679,17 @@
       "confidence_score": 1.0,
       "source_file": "src/app.js",
       "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_app",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
@@ -6615,7 +6711,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -6626,7 +6722,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L24",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -6637,7 +6733,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -6648,7 +6744,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L27",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -6659,7 +6755,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -6670,7 +6766,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -6681,7 +6777,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L39",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -6692,7 +6788,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L51",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -6703,7 +6799,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L65",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -6714,7 +6810,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L70",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -6725,73 +6821,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L139",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner",
-      "target": "src_banner_sleep",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/banner.js",
-      "source_location": "L119",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner",
-      "target": "src_banner_playbanneranimation",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/banner.js",
-      "source_location": "L124",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner",
-      "target": "src_banner_pixelbrightness",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/banner.js",
-      "source_location": "L15",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner",
-      "target": "src_banner_createbanner",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/banner.js",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner",
-      "target": "src_banner_getbanner",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/banner.js",
-      "source_location": "L50",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner",
-      "target": "src_banner_renderstaticbanner",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/banner.js",
-      "source_location": "L55",
+      "source_location": "L141",
       "weight": 1.0
     },
     {
@@ -6802,7 +6832,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/banner.js",
-      "source_location": "L62",
+      "source_location": "L103",
       "weight": 1.0
     },
     {
@@ -6813,7 +6843,106 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/banner.js",
-      "source_location": "L66",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_cropreveal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_revealword",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_renderanimationframe",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_pixelbrightness",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_sleep",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_playbanneranimation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_findinkbounds",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_halfblock",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_imagetohalfblocks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -6829,24 +6958,13 @@
     },
     {
       "source": "src_banner",
-      "target": "src_banner_cropreveal",
+      "target": "src_banner_createbanner",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/banner.js",
       "source_location": "L71",
-      "weight": 1.0
-    },
-    {
-      "source": "src_banner",
-      "target": "src_banner_revealword",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/banner.js",
-      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -6862,13 +6980,24 @@
     },
     {
       "source": "src_banner",
-      "target": "src_banner_renderanimationframe",
+      "target": "src_banner_getbanner",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/banner.js",
-      "source_location": "L84",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "src_banner",
+      "target": "src_banner_renderstaticbanner",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/banner.js",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -7693,7 +7822,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "test/banner.test.js",
-      "source_location": "L25",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -7704,7 +7833,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "test/banner.test.js",
-      "source_location": "L26",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -7715,7 +7844,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "test/banner.test.js",
-      "source_location": "L27",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -7726,7 +7855,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "test/banner.test.js",
-      "source_location": "L28",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -7750,7 +7879,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "src/app.js",
-      "source_location": "L217",
+      "source_location": "L229",
       "weight": 1.0
     },
     {
@@ -7762,7 +7891,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "src/app.js",
-      "source_location": "L218",
+      "source_location": "L230",
       "weight": 1.0
     },
     {
@@ -7774,7 +7903,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "src/app.js",
-      "source_location": "L232",
+      "source_location": "L244",
       "weight": 1.0
     },
     {
@@ -7786,7 +7915,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "src/app.js",
-      "source_location": "L234",
+      "source_location": "L246",
       "weight": 1.0
     },
     {
@@ -7815,5 +7944,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "37f24e4ae5251c3adcf84492150b37c889b45afa"
+  "built_at_commit": "7fbf90074427cf86b8b8d1024a3c37416291ef08"
 }

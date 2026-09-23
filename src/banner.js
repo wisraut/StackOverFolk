@@ -8,7 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const GREEN = '#2D6A3F';
 const GOLD = '#C8860A';
-const IMAGE_WIDTH = 55;
+const IMAGE_WIDTH = 64;
+const INK_THRESHOLD = 205;
 
 let cachedBanner;
 
@@ -19,27 +20,67 @@ function pixelBrightness(color) {
   return 0.299 * r + 0.587 * g + 0.114 * b;
 }
 
+function findInkBounds(image) {
+  let minX = image.width;
+  let minY = image.height;
+  let maxX = -1;
+  let maxY = -1;
+
+  for (let y = 0; y < image.height; y++) {
+    for (let x = 0; x < image.width; x++) {
+      if (pixelBrightness(image.getPixelColor(x, y)) >= INK_THRESHOLD) continue;
+      minX = Math.min(minX, x);
+      minY = Math.min(minY, y);
+      maxX = Math.max(maxX, x);
+      maxY = Math.max(maxY, y);
+    }
+  }
+
+  return maxX < 0
+    ? { x: 0, y: 0, w: image.width, h: image.height }
+    : { x: minX, y: minY, w: maxX - minX + 1, h: maxY - minY + 1 };
+}
+
+function halfBlock(top, bottom) {
+  if (top && bottom) return '█';
+  if (top) return '▀';
+  if (bottom) return '▄';
+  return ' ';
+}
+
+function imageToHalfBlocks(image) {
+  const bounds = findInkBounds(image);
+  const cropped = image.clone().crop(bounds);
+  const scaledHeight = Math.max(2, Math.round((cropped.height / cropped.width) * IMAGE_WIDTH));
+  const pixelHeight = scaledHeight % 2 === 0 ? scaledHeight : scaledHeight + 1;
+  cropped.resize({ w: IMAGE_WIDTH, h: pixelHeight });
+
+  const lines = [];
+  for (let y = 0; y < cropped.height; y += 2) {
+    let line = '';
+    for (let x = 0; x < cropped.width; x++) {
+      const top = pixelBrightness(cropped.getPixelColor(x, y)) < INK_THRESHOLD;
+      const bottom = pixelBrightness(cropped.getPixelColor(x, y + 1)) < INK_THRESHOLD;
+      line += halfBlock(top, bottom);
+    }
+    lines.push(line);
+  }
+  return lines;
+}
+
 async function createBanner() {
   const imagePath = join(__dirname, '..', 'StackOverFolk.png');
   const image = await Jimp.read(imagePath);
-  const targetHeight = Math.round((image.height / image.width) * IMAGE_WIDTH / 2);
-  image.resize({ w: IMAGE_WIDTH, h: targetHeight });
-
-  const glasses = [];
-  for (let y = 0; y < image.height; y++) {
-    let line = '';
-    for (let x = 0; x < image.width; x++) {
-      const brightness = pixelBrightness(image.getPixelColor(x, y));
-      line += brightness < 85 ? '█' : brightness < 170 ? '▓' : ' ';
-    }
-    glasses.push(line);
-  }
+  const rawGlasses = imageToHalfBlocks(image);
 
   const stackOver = figlet.textSync('StackOver', { font: 'Standard' }).split('\n');
   const folk = figlet.textSync('Folk', { font: 'Standard' }).split('\n');
   const height = Math.max(stackOver.length, folk.length);
   while (stackOver.length < height) stackOver.push('');
   while (folk.length < height) folk.push('');
+  const wordmarkWidth = Math.max(...stackOver.map((line, index) => line.length + folk[index].length));
+  const leftPadding = ' '.repeat(Math.max(0, Math.floor((wordmarkWidth - IMAGE_WIDTH) / 2)));
+  const glasses = rawGlasses.map((line) => leftPadding + line);
 
   return {
     glasses,
@@ -93,7 +134,8 @@ export function renderAnimationFrame(banner, elapsed, duration = 2500) {
     )).join(''));
     wordmark = banner.wordmark.map(() => ({ stackOver: '', folk: '' }));
   } else if (elapsed < 1000) {
-    const reveal = Math.floor(IMAGE_WIDTH * ((elapsed - 400) / 600));
+    const glassesWidth = Math.max(...banner.glasses.map((line) => [...line].length));
+    const reveal = Math.floor(glassesWidth * ((elapsed - 400) / 600));
     glasses = banner.glasses.map((line) => cropReveal(line, reveal));
     wordmark = banner.wordmark.map(() => ({ stackOver: '', folk: '' }));
   } else {

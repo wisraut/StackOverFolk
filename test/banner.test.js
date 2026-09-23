@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { EventEmitter } from 'node:events';
-import { playBannerAnimation, renderAnimationFrame, renderStaticBanner } from '../src/banner.js';
+import { getBanner, playBannerAnimation, renderAnimationFrame, renderStaticBanner } from '../src/banner.js';
 
 const banner = {
   glasses: [' ██ ', '█  █', ' ██ '],
@@ -11,6 +11,13 @@ const banner = {
 test('the final animation frame is the unchanged static banner', () => {
   assert.equal(renderAnimationFrame(banner, 2500), renderStaticBanner(banner));
   assert.equal(renderAnimationFrame(banner, 3000), renderStaticBanner(banner));
+});
+
+test('the source image becomes a centered high-detail half-block silhouette', async () => {
+  const generated = await getBanner();
+  assert.ok(generated.glasses.length >= 10);
+  assert.match(generated.glasses.join('\n'), /[▀▄]/u);
+  assert.doesNotMatch(generated.glasses.join('\n'), /▓/u);
 });
 
 test('animation has distinct scan, lens, journey, and wordmark phases', () => {

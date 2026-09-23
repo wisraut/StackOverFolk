@@ -1,17 +1,17 @@
 # Graph Report - StackOverFolk  (2026-09-23)
 
 ## Corpus Check
-- 29 files · ~28,778 words
+- 29 files · ~29,042 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 3)
 
 ## Summary
-- 244 nodes · 424 edges · 19 communities (15 shown, 4 thin omitted)
+- 247 nodes · 432 edges · 19 communities (15 shown, 4 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `37f24e4a`
+- Built from commit: `7fbf9007`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -57,8 +57,8 @@
   index.js → src/banner.js
 - `main()` --calls--> `handoffInputToInk()`  [EXTRACTED]
   index.js → src/terminal-input.js
-- `BasePicker()` --calls--> `formatMode()`  [EXTRACTED]
-  src/app.js → src/journey.js
+- `AnimatedLogo()` --calls--> `renderAnimationFrame()`  [EXTRACTED]
+  src/app.js → src/banner.js
 
 ## Import Cycles
 - None detected.
@@ -71,11 +71,11 @@ Nodes (29): author, bin, stackoverfolk, dependencies, chalk, figlet, ink, jimp (
 
 ### Community 1 - "banner.js"
 Cohesion: 0.16
-Nodes (18): main(), shouldAnimate(), AnimatedLogo(), createBanner(), cropReveal(), deterministicNoise(), __dirname, __filename (+10 more)
+Nodes (20): main(), shouldAnimate(), createBanner(), cropReveal(), deterministicNoise(), __dirname, __filename, findInkBounds() (+12 more)
 
 ### Community 2 - "app.js"
 Cohesion: 0.11
-Nodes (26): ink-testing-library, react, App(), cryptoJourney(), openPicker(), reuseAndSwitch(), run(), BasePicker() (+18 more)
+Nodes (27): ink-testing-library, react, AnimatedLogo(), App(), cryptoJourney(), openPicker(), reuseAndSwitch(), run() (+19 more)
 
 ### Community 3 - "StackOverFolk — Project Plan"
 Cohesion: 0.06
@@ -136,7 +136,7 @@ Nodes (4): Answer, Outcome, Q: CLI renders then exits immediately after the bann
 - `main()` (5× useful, score=4.463911462) _(code changed — re-verify)_
 - `package.json` (3× useful, score=2.864866859) _(code changed — re-verify)_
 - `converter.js` (3× useful, score=2.731135727)
-- `banner.js` (2× useful, score=1.732865536)
+- `banner.js` (2× useful, score=1.732865536) _(code changed — re-verify)_
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -144,7 +144,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `App()` connect `app.js` to `ecc.js`, `banner.js`, `journey.js`, `des.js`?**
   _High betweenness centrality (0.048) - this node is a cross-community bridge._
 - **Why does `react` connect `app.js` to `package.json`, `banner.js`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **Why does `chalk` connect `package.json` to `banner.js`, `app.js`?**
   _High betweenness centrality (0.033) - this node is a cross-community bridge._
 - **Are the 7 inferred relationships involving `App()` (e.g. with `main()` and `AnimatedLogo()`) actually correct?**
@@ -154,4 +154,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `app.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.10685483870967742 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10606060606060606 - nodes in this community are weakly interconnected._
