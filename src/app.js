@@ -10,6 +10,7 @@ import { renderAnimationFrame, renderStaticBanner } from './banner.js';
 
 const MODES = [...UI_BASES, ASCII_MODE];
 const VIEWS = ['Guided', 'Quick', 'Full Trace'];
+const BACKSPACE_HINT = 'กด Backspace อีกครั้งเพื่อกลับหน้าเลือก';
 const ITEMS = [
   { id: 'base', label: 'Base / ASCII Converter', hint: 'แปลงเลขฐานและรหัส ASCII พร้อมดูวิธีทำ' },
   { id: 'sha256', label: 'SHA-256 Hash', hint: 'สร้าง digest 256 บิต (ย้อนกลับไม่ได้)' },
@@ -128,13 +129,14 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
   const [desSettings, setDesSettings] = useState({ DES: { ...DEFAULT_DES_SETTINGS }, '3DES': { ...DEFAULT_3DES_SETTINGS } });
   const [editing, setEditing] = useState(null);
   const [editValue, setEditValue] = useState('');
+  const [backspaceArmed, setBackspaceArmed] = useState(false);
   const pickerChoices = useMemo(() => picker ? modeChoices(picker === 'from' ? to : from) : [], [picker, from, to]);
   const item = ITEMS.find((candidate) => candidate.id === operation) ?? ITEMS[0];
   const compact = (stdout.columns ?? 100) < 80;
 
   function close() { onExit?.(); exit(); }
-  function enterOperation(next) { setOperation(next); setScreen('operation'); setInput(''); setJourney(null); setError(''); setStageIndex(0); }
-  function goHome() { setScreen('home'); setJourney(null); setInput(''); setError(''); setPicker(null); setEditing(null); }
+  function enterOperation(next) { setOperation(next); setScreen('operation'); setInput(''); setJourney(null); setError(''); setStageIndex(0); setBackspaceArmed(false); }
+  function goHome() { setScreen('home'); setJourney(null); setInput(''); setError(''); setPicker(null); setEditing(null); setBackspaceArmed(false); }
   function openPicker(kind, both = false) { const current = kind === 'from' ? from : to; setPicker(kind); setConfigureBoth(both); setPickerIndex(Math.max(0, modeChoices(kind === 'from' ? to : from).indexOf(current))); }
   function cryptoJourney(value, id = operation) {
     if (id === 'sha256' || id === 'sha512') return createHashJourney(value, id);
@@ -194,13 +196,23 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
       }
       return;
     }
+    if (!key.backspace && !key.delete && backspaceArmed) {
+      setBackspaceArmed(false);
+      if (error === BACKSPACE_HINT) setError('');
+    }
     if (key.escape) return goHome();
     if (key.leftArrow && journey) return setStageIndex((value) => Math.max(0, value - 1));
     if (key.rightArrow && journey) return setStageIndex((value) => Math.min(journey.stages.length - 1, value + 1));
     if (key.return) return run();
     if (key.backspace || key.delete) {
-      if (input.length > 0) return setInput((value) => value.slice(0, -1));
-      return goHome();
+      if (input.length > 0) {
+        setBackspaceArmed(false);
+        return setInput((value) => value.slice(0, -1));
+      }
+      if (backspaceArmed) return goHome();
+      setBackspaceArmed(true);
+      setError(BACKSPACE_HINT);
+      return;
     }
     if (key.tab && journey) { setInput(journey.rawOutput ?? journey.output); setJourney(null); setLastInput(''); setError(''); return; }
     if (key.ctrl && character === 'm') { setView((value) => (value + 1) % VIEWS.length); return; }
@@ -210,7 +222,7 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
     if (operation === 'base' && key.ctrl && character === 't') return openPicker('to');
     if (operation === 'base' && key.ctrl && character === 'b') return openPicker('from', true);
     if (/^(3?des)-/.test(operation) && key.ctrl && (character === 'k' || character === 'i')) { const field = character === 'k' ? 'keyHex' : 'ivHex'; setEditing(field); setEditValue(''); setError(''); return; }
-    if (!key.ctrl && !key.meta && character) { setInput((value) => value + character); setError(''); }
+    if (!key.ctrl && !key.meta && character) { setBackspaceArmed(false); setInput((value) => value + character); setError(''); }
   });
 
   if (screen === 'home') return React.createElement(Box, { flexDirection: 'column', paddingX: 1 },
@@ -235,7 +247,7 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
       error && React.createElement(Text, { color: palette.red }, error),
       !editing && React.createElement(Box, { marginTop: 1 }, React.createElement(Text, { color: palette.gold, bold: true }, 'กรอกค่า  '), React.createElement(Text, null, `${input || ' '}▌`)),
       React.createElement(Text, { color: palette.gray }, `มุมมอง: ${VIEWS[view]} · Enter ทำงาน · Tab ใช้ผลเป็น input ถัดไป · ←/→ Journey · Ctrl+M เปลี่ยนมุมมอง · Ctrl+D รายละเอียด`),
-      React.createElement(Text, { color: palette.gray }, operation === 'base' ? 'Ctrl+S สลับ · Ctrl+T ปลายทาง · Ctrl+B เลือกฐาน · Backspace หน้าเลือกเมื่อช่องว่าง · Ctrl+Q ออก' : `${companion(operation) ? 'Ctrl+A สลับ Encrypt/Decrypt · ' : ''}${isDes ? 'Ctrl+K Key · Ctrl+I IV · ' : ''}Backspace หน้าเลือกเมื่อช่องว่าง · Ctrl+Q ออก`),
+      React.createElement(Text, { color: palette.gray }, operation === 'base' ? 'Ctrl+S สลับ · Ctrl+T ปลายทาง · Ctrl+B เลือกฐาน · Backspace×2 หน้าเลือก · Ctrl+Q ออก' : `${companion(operation) ? 'Ctrl+A สลับ Encrypt/Decrypt · ' : ''}${isDes ? 'Ctrl+K Key · Ctrl+I IV · ' : ''}Backspace×2 หน้าเลือก · Ctrl+Q ออก`),
     ),
   );
 }

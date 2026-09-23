@@ -51,11 +51,14 @@ test('Ctrl+O also returns to the operation menu', async () => {
   app.unmount();
 });
 
-test('Backspace returns to the menu only when input is empty', async () => {
+test('Backspace requires two empty presses before returning to the menu', async () => {
   const app = render(React.createElement(App));
   await type(app, '2');
   await type(app, 'x');
   await type(app, String.fromCharCode(8));
+  assert.match(app.lastFrame(), /SHA-256 HASH/);
+  await type(app, String.fromCharCode(8));
+  assert.match(app.lastFrame(), /กด Backspace อีกครั้ง/);
   assert.match(app.lastFrame(), /SHA-256 HASH/);
   await type(app, String.fromCharCode(8));
   assert.match(app.lastFrame(), /CRYPTO & CONVERSION LAB/);

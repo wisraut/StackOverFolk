@@ -32,7 +32,7 @@ Enter a value in the persistent input line, then press Enter. The selected lab a
 - `Ctrl+A` switches between encrypt/decrypt and reuses the result where supported.
 - `Ctrl+M` cycles Guided, Quick Result, and Full Trace views.
 - `Ctrl+D` shows or hides detailed explanations.
-- `Backspace` returns to the operation menu when the input is empty; otherwise it deletes the previous character. `Esc` and `Ctrl+O` are alternate ways back, while only `Ctrl+Q` quits.
+- `Backspace` deletes input normally. When the input is empty, press it twice consecutively to return to the operation menu. `Esc` and `Ctrl+O` are alternate ways back, while only `Ctrl+Q` quits.
 - In DES/3DES labs, `Ctrl+K` edits the key and `Ctrl+I` edits the IV.
 
 Base/ASCII also provides these session shortcuts:
