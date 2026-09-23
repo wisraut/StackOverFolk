@@ -38,9 +38,8 @@ Enter a value in the persistent input line, then press Enter. The selected lab a
 Base/ASCII also provides these session shortcuts:
 
 - `Ctrl+S` swaps source and target, then places the latest result in the input line.
-- `Ctrl+B` cycles the source mode immediately.
-- `Ctrl+T` cycles the target mode immediately and recalculates the latest source input.
-- `Ctrl+E` opens the full source-and-target picker; `Backspace` returns from it.
+- `Ctrl+B` opens one combined source-and-target picker. Use up/down for the source, left/right for the target, and Enter to confirm.
+- `Ctrl+T` opens the same picker. `Backspace` returns without changing the current pair.
 - `←` / `→` move through the journey.
 
 After every successful conversion, the input line is cleared and focused while
