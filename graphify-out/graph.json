@@ -17,6 +17,19 @@
       "source_location": "L23"
     },
     {
+      "id": "src_operations_hash_cryptooperationerror",
+      "label": "CryptoOperationError",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "cryptooperationerror",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L3"
+    },
+    {
       "id": "src_converter_conversionerror",
       "label": "ConversionError",
       "_callable": true,
@@ -39,7 +52,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "index.js",
-      "source_location": "L14"
+      "source_location": "L15"
     },
     {
       "id": "index_shouldanimate",
@@ -51,7 +64,19 @@
       "file_type": "code",
       "norm_label": "shouldanimate()",
       "source_file": "index.js",
-      "source_location": "L8"
+      "source_location": "L9"
+    },
+    {
+      "id": "src_app_animatedlogo",
+      "label": "AnimatedLogo()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "animatedlogo()",
+      "source_file": "src/app.js",
+      "source_location": "L39"
     },
     {
       "id": "src_banner_createbanner",
@@ -186,6 +211,42 @@
       "source_location": "L119"
     },
     {
+      "id": "src_terminal_input_handoffinputtoink",
+      "label": "handoffInputToInk()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "handoffinputtoink()",
+      "source_file": "src/terminal-input.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "test_terminal_input_test_pause",
+      "label": "pause()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "pause()",
+      "source_file": "test/terminal-input.test.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "test_terminal_input_test_resume",
+      "label": "resume()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "resume()",
+      "source_file": "test/terminal-input.test.js",
+      "source_location": "L8"
+    },
+    {
       "id": "test_banner_test_mockinput_on",
       "label": ".on()",
       "_callable": true,
@@ -234,6 +295,162 @@
       "source_location": "L25"
     },
     {
+      "id": "src_operations_ecc_createeccdecryptjourney",
+      "label": "createEccDecryptJourney()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "createeccdecryptjourney()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L126"
+    },
+    {
+      "id": "src_operations_ecc_createeccencryptjourney",
+      "label": "createEccEncryptJourney()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "createeccencryptjourney()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L76"
+    },
+    {
+      "id": "src_operations_ecc_createeccsession",
+      "label": "createEccSession()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "createeccsession()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L68"
+    },
+    {
+      "id": "src_operations_ecc_decodepayload",
+      "label": "decodePayload()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "decodepayload()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L52"
+    },
+    {
+      "id": "src_operations_ecc_derivekey",
+      "label": "deriveKey()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "derivekey()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L37"
+    },
+    {
+      "id": "src_operations_ecc_frombase64url",
+      "label": "fromBase64Url()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "frombase64url()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L23"
+    },
+    {
+      "id": "src_operations_ecc_requiresession",
+      "label": "requireSession()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "requiresession()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L41"
+    },
+    {
+      "id": "src_operations_ecc_stage",
+      "label": "stage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "stage()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_operations_ecc_tobase64url",
+      "label": "toBase64Url()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "tobase64url()",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L19"
+    },
+    {
+      "id": "src_operations_hash_createhashjourney",
+      "label": "createHashJourney()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "createhashjourney()",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L32"
+    },
+    {
+      "id": "src_operations_hash_cryptooperationerror_constructor",
+      "label": ".constructor()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": ".constructor()",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_operations_hash_paddingsummary",
+      "label": "paddingSummary()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "paddingsummary()",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_operations_hash_stage",
+      "label": "stage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "stage()",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L12"
+    },
+    {
       "id": "src_app_app",
       "label": "App()",
       "_callable": true,
@@ -243,7 +460,7 @@
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "src/app.js",
-      "source_location": "L59"
+      "source_location": "L109"
     },
     {
       "id": "src_app_app_close",
@@ -255,7 +472,43 @@
       "file_type": "code",
       "norm_label": "close()",
       "source_file": "src/app.js",
-      "source_location": "L75"
+      "source_location": "L135"
+    },
+    {
+      "id": "src_app_app_cryptojourney",
+      "label": "cryptoJourney()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "cryptojourney()",
+      "source_file": "src/app.js",
+      "source_location": "L139"
+    },
+    {
+      "id": "src_app_app_enteroperation",
+      "label": "enterOperation()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "enteroperation()",
+      "source_file": "src/app.js",
+      "source_location": "L136"
+    },
+    {
+      "id": "src_app_app_gohome",
+      "label": "goHome()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "gohome()",
+      "source_file": "src/app.js",
+      "source_location": "L137"
     },
     {
       "id": "src_app_app_openpicker",
@@ -267,19 +520,31 @@
       "file_type": "code",
       "norm_label": "openpicker()",
       "source_file": "src/app.js",
-      "source_location": "L80"
+      "source_location": "L138"
     },
     {
-      "id": "src_app_app_runconversion",
-      "label": "runConversion()",
+      "id": "src_app_app_reuseandswitch",
+      "label": "reuseAndSwitch()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "app.js",
       "file_type": "code",
-      "norm_label": "runconversion()",
+      "norm_label": "reuseandswitch()",
       "source_file": "src/app.js",
-      "source_location": "L88"
+      "source_location": "L157"
+    },
+    {
+      "id": "src_app_app_run",
+      "label": "run()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "run()",
+      "source_file": "src/app.js",
+      "source_location": "L147"
     },
     {
       "id": "src_app_basepicker",
@@ -291,19 +556,55 @@
       "file_type": "code",
       "norm_label": "basepicker()",
       "source_file": "src/app.js",
-      "source_location": "L48"
+      "source_location": "L101"
     },
     {
-      "id": "src_app_focuscard",
-      "label": "FocusCard()",
+      "id": "src_app_companion",
+      "label": "companion()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "app.js",
       "file_type": "code",
-      "norm_label": "focuscard()",
+      "norm_label": "companion()",
       "source_file": "src/app.js",
-      "source_location": "L38"
+      "source_location": "L28"
+    },
+    {
+      "id": "src_app_home",
+      "label": "Home()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "home()",
+      "source_file": "src/app.js",
+      "source_location": "L51"
+    },
+    {
+      "id": "src_app_journey",
+      "label": "Journey()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "journey()",
+      "source_file": "src/app.js",
+      "source_location": "L70"
+    },
+    {
+      "id": "src_app_logolooptimeline",
+      "label": "logoLoopTimeline()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "logolooptimeline()",
+      "source_file": "src/app.js",
+      "source_location": "L32"
     },
     {
       "id": "src_app_modechoices",
@@ -315,7 +616,7 @@
       "file_type": "code",
       "norm_label": "modechoices()",
       "source_file": "src/app.js",
-      "source_location": "L16"
+      "source_location": "L26"
     },
     {
       "id": "src_app_rail",
@@ -327,19 +628,19 @@
       "file_type": "code",
       "norm_label": "rail()",
       "source_file": "src/app.js",
-      "source_location": "L20"
+      "source_location": "L65"
     },
     {
-      "id": "src_journey_formatmode",
-      "label": "formatMode()",
+      "id": "src_app_truncate",
+      "label": "truncate()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "app.js",
       "file_type": "code",
-      "norm_label": "formatmode()",
-      "source_file": "src/journey.js",
-      "source_location": "L108"
+      "norm_label": "truncate()",
+      "source_file": "src/app.js",
+      "source_location": "L27"
     },
     {
       "id": "test_app_test_submit",
@@ -375,6 +676,42 @@
       "file_type": "code",
       "norm_label": "waitforrender()",
       "source_file": "test/app.test.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "test_home_test_submit",
+      "label": "submit()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "submit()",
+      "source_file": "test/home.test.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "test_home_test_type",
+      "label": "type()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "type()",
+      "source_file": "test/home.test.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "test_home_test_wait",
+      "label": "wait()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "wait()",
+      "source_file": "test/home.test.js",
       "source_location": "L7"
     },
     {
@@ -570,6 +907,18 @@
       "source_location": "L31"
     },
     {
+      "id": "src_journey_formatmode",
+      "label": "formatMode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "journey.js",
+      "file_type": "code",
+      "norm_label": "formatmode()",
+      "source_file": "src/journey.js",
+      "source_location": "L108"
+    },
+    {
       "id": "src_journey_stage",
       "label": "stage()",
       "_callable": true,
@@ -580,6 +929,222 @@
       "norm_label": "stage()",
       "source_file": "src/journey.js",
       "source_location": "L17"
+    },
+    {
+      "id": "src_operations_des_biginttobuffer",
+      "label": "bigIntToBuffer()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "biginttobuffer()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L29"
+    },
+    {
+      "id": "src_operations_des_buffertobigint",
+      "label": "bufferToBigInt()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "buffertobigint()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_operations_des_createdesjourney",
+      "label": "createDesJourney()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "createdesjourney()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L46"
+    },
+    {
+      "id": "src_operations_des_desblock",
+      "label": "desBlock()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "desblock()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L36"
+    },
+    {
+      "id": "src_operations_des_desblockhex",
+      "label": "desBlockHex()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "desblockhex()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L37"
+    },
+    {
+      "id": "src_operations_des_fail",
+      "label": "fail()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "fail()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L24"
+    },
+    {
+      "id": "src_operations_des_feistel",
+      "label": "feistel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "feistel()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L34"
+    },
+    {
+      "id": "src_operations_des_hex",
+      "label": "hex()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "hex()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L27"
+    },
+    {
+      "id": "src_operations_des_pad",
+      "label": "pad()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "pad()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L42"
+    },
+    {
+      "id": "src_operations_des_parsehex",
+      "label": "parseHex()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "parsehex()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L31"
+    },
+    {
+      "id": "src_operations_des_permute",
+      "label": "permute()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "permute()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_operations_des_rotate28",
+      "label": "rotate28()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "rotate28()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L26"
+    },
+    {
+      "id": "src_operations_des_stage",
+      "label": "stage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "stage()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L44"
+    },
+    {
+      "id": "src_operations_des_subkeys",
+      "label": "subkeys()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "subkeys()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L33"
+    },
+    {
+      "id": "src_operations_des_tripleblock",
+      "label": "tripleBlock()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "tripleblock()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L39"
+    },
+    {
+      "id": "src_operations_des_tripledesblockhex",
+      "label": "tripleDesBlockHex()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "tripledesblockhex()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L40"
+    },
+    {
+      "id": "src_operations_des_unpad",
+      "label": "unpad()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "unpad()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L43"
+    },
+    {
+      "id": "src_operations_des_xorbuffers",
+      "label": "xorBuffers()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "xorbuffers()",
+      "source_file": "src/operations/des.js",
+      "source_location": "L30"
     },
     {
       "id": "package",
@@ -601,7 +1166,7 @@
       "file_type": "code",
       "norm_label": "author",
       "source_file": "package.json",
-      "source_location": "L33"
+      "source_location": "L37"
     },
     {
       "id": "package_bin",
@@ -634,7 +1199,7 @@
       "file_type": "code",
       "norm_label": "dependencies",
       "source_file": "package.json",
-      "source_location": "L35"
+      "source_location": "L39"
     },
     {
       "id": "package_dependencies_chalk",
@@ -645,7 +1210,7 @@
       "file_type": "code",
       "norm_label": "chalk",
       "source_file": "package.json",
-      "source_location": "L36"
+      "source_location": "L40"
     },
     {
       "id": "package_dependencies_figlet",
@@ -656,7 +1221,7 @@
       "file_type": "code",
       "norm_label": "figlet",
       "source_file": "package.json",
-      "source_location": "L37"
+      "source_location": "L41"
     },
     {
       "id": "package_dependencies_ink",
@@ -667,7 +1232,7 @@
       "file_type": "code",
       "norm_label": "ink",
       "source_file": "package.json",
-      "source_location": "L38"
+      "source_location": "L42"
     },
     {
       "id": "package_dependencies_jimp",
@@ -678,7 +1243,7 @@
       "file_type": "code",
       "norm_label": "jimp",
       "source_file": "package.json",
-      "source_location": "L39"
+      "source_location": "L43"
     },
     {
       "id": "package_dependencies_react",
@@ -689,7 +1254,7 @@
       "file_type": "code",
       "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L40"
+      "source_location": "L44"
     },
     {
       "id": "package_description",
@@ -711,7 +1276,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "package.json",
-      "source_location": "L42"
+      "source_location": "L46"
     },
     {
       "id": "package_devdependencies_ink_testing_library",
@@ -722,7 +1287,7 @@
       "file_type": "code",
       "norm_label": "ink-testing-library",
       "source_file": "package.json",
-      "source_location": "L43"
+      "source_location": "L47"
     },
     {
       "id": "package_engines",
@@ -777,7 +1342,7 @@
       "file_type": "code",
       "norm_label": "license",
       "source_file": "package.json",
-      "source_location": "L34"
+      "source_location": "L38"
     },
     {
       "id": "package_main",
@@ -868,6 +1433,17 @@
       "source_location": "L3"
     },
     {
+      "id": "ref_chalk",
+      "label": "chalk",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "concept",
+      "norm_label": "chalk",
+      "source_file": "package.json",
+      "source_location": "L40"
+    },
+    {
       "id": "ref_figlet",
       "label": "figlet",
       "_origin": "ast",
@@ -876,7 +1452,18 @@
       "file_type": "concept",
       "norm_label": "figlet",
       "source_file": "package.json",
-      "source_location": "L37"
+      "source_location": "L41"
+    },
+    {
+      "id": "ref_ink",
+      "label": "ink",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "concept",
+      "norm_label": "ink",
+      "source_file": "package.json",
+      "source_location": "L42"
     },
     {
       "id": "ref_jimp",
@@ -887,7 +1474,7 @@
       "file_type": "concept",
       "norm_label": "jimp",
       "source_file": "package.json",
-      "source_location": "L39"
+      "source_location": "L43"
     },
     {
       "id": "index",
@@ -934,6 +1521,17 @@
       "source_location": "L7"
     },
     {
+      "id": "src_terminal_input",
+      "label": "terminal-input.js",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "banner.js",
+      "file_type": "code",
+      "norm_label": "terminal-input.js",
+      "source_file": "src/terminal-input.js",
+      "source_location": "L1"
+    },
+    {
       "id": "test_banner_test",
       "label": "banner.test.js",
       "_origin": "ast",
@@ -956,15 +1554,15 @@
       "source_location": "L6"
     },
     {
-      "id": "ref_ink",
-      "label": "ink",
+      "id": "test_terminal_input_test",
+      "label": "terminal-input.test.js",
       "_origin": "ast",
       "community": 1,
       "community_name": "banner.js",
-      "file_type": "concept",
-      "norm_label": "ink",
-      "source_file": "package.json",
-      "source_location": "L38"
+      "file_type": "code",
+      "norm_label": "terminal-input.test.js",
+      "source_file": "test/terminal-input.test.js",
+      "source_location": "L1"
     },
     {
       "id": "graphify_out_memory_query_20260916_034150_992a11fa_\u0e2d_\u0e19\u0e19_\u0e04_\u0e2d\u0e41\u0e1e\u0e25\u0e19\u0e04\u0e25_\u0e32\u0e27\u0e46\u0e2d\u0e19\u0e32\u0e04\u0e15\u0e15\u0e2d\u0e19\u0e17_\u0e32\u0e43\u0e0a_mode_\u0e2d_\u0e19\u0e17_\u0e32_terra",
@@ -1124,7 +1722,7 @@
       "node_kind": "heading",
       "norm_label": "controls",
       "source_file": "README.md",
-      "source_location": "L18"
+      "source_location": "L27"
     },
     {
       "id": "readme_development",
@@ -1136,7 +1734,19 @@
       "node_kind": "heading",
       "norm_label": "development",
       "source_file": "README.md",
-      "source_location": "L35"
+      "source_location": "L51"
+    },
+    {
+      "id": "readme_labs",
+      "label": "Labs",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "StackOverFolk",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "labs",
+      "source_file": "README.md",
+      "source_location": "L7"
     },
     {
       "id": "readme_run",
@@ -1148,7 +1758,7 @@
       "node_kind": "heading",
       "norm_label": "run",
       "source_file": "README.md",
-      "source_location": "L7"
+      "source_location": "L16"
     },
     {
       "id": "readme_stackoverfolk",
@@ -1211,6 +1821,197 @@
       "source_location": "L1"
     },
     {
+      "id": "src_operations_ecc",
+      "label": "ecc.js",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "ecc.js",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_operations_ecc_hkdf_info",
+      "label": "HKDF_INFO",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "hkdf_info",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_operations_ecc_privatekeys",
+      "label": "privateKeys",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "privatekeys",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_operations_hash",
+      "label": "hash.js",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "hash.js",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "test_crypto_operations_test",
+      "label": "crypto-operations.test.js",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "ecc.js",
+      "file_type": "code",
+      "norm_label": "crypto-operations.test.js",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07",
+      "label": "query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Q: \u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+      "file_type": "document",
+      "frontmatter": {
+        "type": "query",
+        "date": "2026-09-22T08:25:07.183789+00:00",
+        "question": "\u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+        "contributor": "graphify",
+        "outcome": "useful",
+        "source_nodes": "[&quot;package.json&quot;, &quot;index.js&quot;, &quot;Run&quot;]"
+      },
+      "node_kind": "page",
+      "norm_label": "query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_answer",
+      "label": "Answer",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Q: \u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "answer",
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_outcome",
+      "label": "Outcome",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Q: \u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "outcome",
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_q_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07",
+      "label": "Q: \u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Q: \u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "q: \u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_source_nodes",
+      "label": "Source Nodes",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "Q: \u0e2d\u0e22\u0e32\u0e01\u0e23\u0e31\u0e19\u0e40\u0e2d\u0e07\u0e22\u0e31\u0e07\u0e44\u0e07",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "source nodes",
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne",
+      "label": "query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Q: CLI renders then exits immediately after the banner animation",
+      "file_type": "document",
+      "frontmatter": {
+        "type": "query",
+        "date": "2026-09-22T08:40:04.753447+00:00",
+        "question": "CLI renders then exits immediately after the banner animation",
+        "contributor": "graphify",
+        "outcome": "useful",
+        "source_nodes": "[&quot;main()&quot;, &quot;playBannerAnimation()&quot;, &quot;App()&quot;]"
+      },
+      "node_kind": "page",
+      "norm_label": "query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_answer",
+      "label": "Answer",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Q: CLI renders then exits immediately after the banner animation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "answer",
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L12"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_outcome",
+      "label": "Outcome",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Q: CLI renders then exits immediately after the banner animation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "outcome",
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_q_cli_renders_then_exits_immediately_after_the_banner_animation",
+      "label": "Q: CLI renders then exits immediately after the banner animation",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Q: CLI renders then exits immediately after the banner animation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "q: cli renders then exits immediately after the banner animation",
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_source_nodes",
+      "label": "Source Nodes",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Q: CLI renders then exits immediately after the banner animation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "source nodes",
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L20"
+    },
+    {
       "id": "src_app",
       "label": "app.js",
       "_origin": "ast",
@@ -1222,6 +2023,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_app_items",
+      "label": "ITEMS",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "items",
+      "source_file": "src/app.js",
+      "source_location": "L13"
+    },
+    {
       "id": "src_app_modes",
       "label": "MODES",
       "_origin": "ast",
@@ -1230,7 +2042,7 @@
       "file_type": "code",
       "norm_label": "modes",
       "source_file": "src/app.js",
-      "source_location": "L7"
+      "source_location": "L11"
     },
     {
       "id": "src_app_palette",
@@ -1241,7 +2053,18 @@
       "file_type": "code",
       "norm_label": "palette",
       "source_file": "src/app.js",
-      "source_location": "L8"
+      "source_location": "L24"
+    },
+    {
+      "id": "src_app_views",
+      "label": "VIEWS",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app.js",
+      "file_type": "code",
+      "norm_label": "views",
+      "source_file": "src/app.js",
+      "source_location": "L12"
     },
     {
       "id": "src_journey_ui_bases",
@@ -1266,15 +2089,15 @@
       "source_location": "L1"
     },
     {
-      "id": "ref_chalk",
-      "label": "chalk",
+      "id": "test_home_test",
+      "label": "home.test.js",
       "_origin": "ast",
       "community": 2,
       "community_name": "app.js",
-      "file_type": "concept",
-      "norm_label": "chalk",
-      "source_file": "package.json",
-      "source_location": "L36"
+      "file_type": "code",
+      "norm_label": "home.test.js",
+      "source_file": "test/home.test.js",
+      "source_location": "L1"
     },
     {
       "id": "ref_ink_testing_library",
@@ -1285,7 +2108,7 @@
       "file_type": "concept",
       "norm_label": "ink-testing-library",
       "source_file": "package.json",
-      "source_location": "L43"
+      "source_location": "L47"
     },
     {
       "id": "ref_react",
@@ -1296,7 +2119,7 @@
       "file_type": "concept",
       "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L40"
+      "source_location": "L44"
     },
     {
       "id": "project_plan",
@@ -1309,6 +2132,18 @@
       "norm_label": "project_plan.md",
       "source_file": "PROJECT_PLAN.md",
       "source_location": "L1"
+    },
+    {
+      "id": "project_plan_10_delivery_phases",
+      "label": "10. Delivery phases",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "10. delivery phases",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L280"
     },
     {
       "id": "project_plan_11_acceptance_criteria",
@@ -1357,6 +2192,18 @@
       "norm_label": "14. implemented baseline (2026-09-22)",
       "source_file": "PROJECT_PLAN.md",
       "source_location": "L374"
+    },
+    {
+      "id": "project_plan_15_cryptography_lab_implementation_2026_09_23",
+      "label": "15. Cryptography lab implementation (2026-09-23)",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "15. cryptography lab implementation (2026-09-23)",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L392"
     },
     {
       "id": "project_plan_1_project_summary",
@@ -1527,6 +2374,102 @@
       "source_location": "L92"
     },
     {
+      "id": "project_plan_phase_0_baseline_and_tests",
+      "label": "Phase 0 \u2014 Baseline and tests \u2705",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 0 \u2014 baseline and tests \u2705",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L282"
+    },
+    {
+      "id": "project_plan_phase_1_journey_foundation_base_ascii_slice_complete",
+      "label": "Phase 1 \u2014 Journey foundation (base/ASCII slice complete)",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 1 \u2014 journey foundation (base/ascii slice complete)",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L288"
+    },
+    {
+      "id": "project_plan_phase_2_session_workflow_base_ascii_slice_complete",
+      "label": "Phase 2 \u2014 Session workflow (base/ASCII slice complete)",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 2 \u2014 session workflow (base/ascii slice complete)",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L295"
+    },
+    {
+      "id": "project_plan_phase_3_migrate_base_conversion",
+      "label": "Phase 3 \u2014 Migrate base conversion \u2705",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 3 \u2014 migrate base conversion \u2705",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L302"
+    },
+    {
+      "id": "project_plan_phase_4_hashing",
+      "label": "Phase 4 \u2014 Hashing",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 4 \u2014 hashing",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L308"
+    },
+    {
+      "id": "project_plan_phase_5_des_and_3des",
+      "label": "Phase 5 \u2014 DES and 3DES",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 5 \u2014 des and 3des",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L314"
+    },
+    {
+      "id": "project_plan_phase_6_ecc_hybrid_journey",
+      "label": "Phase 6 \u2014 ECC hybrid journey",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 6 \u2014 ecc hybrid journey",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L321"
+    },
+    {
+      "id": "project_plan_phase_7_polish",
+      "label": "Phase 7 \u2014 Polish",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "StackOverFolk \u2014 Project Plan",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "phase 7 \u2014 polish",
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L328"
+    },
+    {
       "id": "project_plan_repeated_rounds",
       "label": "Repeated rounds",
       "_origin": "ast",
@@ -1641,112 +2584,125 @@
       "source_location": "L1"
     },
     {
-      "id": "project_plan_10_delivery_phases",
-      "label": "10. Delivery phases",
+      "id": "src_operations_des",
+      "label": "des.js",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "10. delivery phases",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L280"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "des.js",
+      "source_file": "src/operations/des.js",
+      "source_location": "L1"
     },
     {
-      "id": "project_plan_phase_0_baseline_and_tests",
-      "label": "Phase 0 \u2014 Baseline and tests \u2705",
+      "id": "src_operations_des_default_3des_settings",
+      "label": "DEFAULT_3DES_SETTINGS",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 0 \u2014 baseline and tests \u2705",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L282"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "default_3des_settings",
+      "source_file": "src/operations/des.js",
+      "source_location": "L22"
     },
     {
-      "id": "project_plan_phase_1_journey_foundation_base_ascii_slice_complete",
-      "label": "Phase 1 \u2014 Journey foundation (base/ASCII slice complete)",
+      "id": "src_operations_des_default_des_settings",
+      "label": "DEFAULT_DES_SETTINGS",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 1 \u2014 journey foundation (base/ascii slice complete)",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L288"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "default_des_settings",
+      "source_file": "src/operations/des.js",
+      "source_location": "L21"
     },
     {
-      "id": "project_plan_phase_2_session_workflow_base_ascii_slice_complete",
-      "label": "Phase 2 \u2014 Session workflow (base/ASCII slice complete)",
+      "id": "src_operations_des_e",
+      "label": "E",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 2 \u2014 session workflow (base/ascii slice complete)",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L295"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "e",
+      "source_file": "src/operations/des.js",
+      "source_location": "L5"
     },
     {
-      "id": "project_plan_phase_3_migrate_base_conversion",
-      "label": "Phase 3 \u2014 Migrate base conversion \u2705",
+      "id": "src_operations_des_fp",
+      "label": "FP",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 3 \u2014 migrate base conversion \u2705",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L302"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "fp",
+      "source_file": "src/operations/des.js",
+      "source_location": "L4"
     },
     {
-      "id": "project_plan_phase_4_hashing",
-      "label": "Phase 4 \u2014 Hashing",
+      "id": "src_operations_des_ip",
+      "label": "IP",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 4 \u2014 hashing",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L308"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "ip",
+      "source_file": "src/operations/des.js",
+      "source_location": "L3"
     },
     {
-      "id": "project_plan_phase_5_des_and_3des",
-      "label": "Phase 5 \u2014 DES and 3DES",
+      "id": "src_operations_des_p",
+      "label": "P",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 5 \u2014 des and 3des",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L314"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "p",
+      "source_file": "src/operations/des.js",
+      "source_location": "L6"
     },
     {
-      "id": "project_plan_phase_6_ecc_hybrid_journey",
-      "label": "Phase 6 \u2014 ECC hybrid journey",
+      "id": "src_operations_des_pc1",
+      "label": "PC1",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 6 \u2014 ecc hybrid journey",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L321"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "pc1",
+      "source_file": "src/operations/des.js",
+      "source_location": "L7"
     },
     {
-      "id": "project_plan_phase_7_polish",
-      "label": "Phase 7 \u2014 Polish",
+      "id": "src_operations_des_pc2",
+      "label": "PC2",
       "_origin": "ast",
       "community": 5,
-      "community_name": "10. Delivery phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "phase 7 \u2014 polish",
-      "source_file": "PROJECT_PLAN.md",
-      "source_location": "L328"
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "pc2",
+      "source_file": "src/operations/des.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_operations_des_sboxes",
+      "label": "SBOXES",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "sboxes",
+      "source_file": "src/operations/des.js",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_operations_des_shifts",
+      "label": "SHIFTS",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "des.js",
+      "file_type": "code",
+      "norm_label": "shifts",
+      "source_file": "src/operations/des.js",
+      "source_location": "L9"
     },
     {
       "id": "graphify_out_memory_query_20260916_031718_85ad7fb6_upgrade_stackoverfolk_from_base_conversion_cli_int",
@@ -1978,7 +2934,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "index.js",
-      "source_location": "L19",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "index_main",
+      "target": "src_terminal_input_handoffinputtoink",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "index.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "index_main",
+      "target": "src_banner_getbanner",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "index.js",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -1990,43 +2970,55 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "index.js",
-      "source_location": "L23",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
-      "source": "index_main",
-      "target": "src_banner_playbanneranimation",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "index.js",
-      "source_location": "L24",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app_app",
-      "target": "src_journey_formatmode",
+      "source": "src_app_animatedlogo",
+      "target": "src_app_logolooptimeline",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L180",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
-      "source": "src_app_app",
-      "target": "src_app_rail",
+      "source": "src_app_animatedlogo",
+      "target": "src_banner_renderanimationframe",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L189",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_animatedlogo",
+      "target": "src_banner_renderstaticbanner",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_operations_ecc_createeccsession",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
@@ -2038,7 +3030,55 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L73",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_operations_hash_createhashjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_operations_des_createdesjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_operations_ecc_createeccdecryptjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_operations_ecc_createeccencryptjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -2050,7 +3090,91 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L94",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_companion",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_journey_formatmode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_truncate",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_cryptojourney",
+      "target": "src_operations_hash_createhashjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_cryptojourney",
+      "target": "src_operations_des_createdesjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_cryptojourney",
+      "target": "src_operations_ecc_createeccdecryptjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_cryptojourney",
+      "target": "src_operations_ecc_createeccencryptjourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -2062,11 +3186,35 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L85",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
-      "source": "src_app_app_runconversion",
+      "source": "src_app_app_reuseandswitch",
+      "target": "src_app_companion",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_run",
+      "target": "src_app_app_cryptojourney",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app_run",
       "target": "src_journey_createconversionjourney",
       "relation": "calls",
       "_origin": "ast",
@@ -2074,7 +3222,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L94",
+      "source_location": "L150",
       "weight": 1.0
     },
     {
@@ -2086,7 +3234,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L49",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
@@ -2098,7 +3246,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L53",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_journey",
+      "target": "src_app_truncate",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_journey",
+      "target": "src_app_rail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -2630,6 +3802,558 @@
       "weight": 1.0
     },
     {
+      "source": "src_operations_des_biginttobuffer",
+      "target": "src_operations_des_hex",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_parsehex",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_pad",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_desblock",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_tripleblock",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_xorbuffers",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_unpad",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_createdesjourney",
+      "target": "src_operations_des_stage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblock",
+      "target": "src_operations_des_biginttobuffer",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblock",
+      "target": "src_operations_des_buffertobigint",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblock",
+      "target": "src_operations_des_feistel",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblock",
+      "target": "src_operations_des_hex",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblock",
+      "target": "src_operations_des_permute",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblock",
+      "target": "src_operations_des_subkeys",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblockhex",
+      "target": "src_operations_des_desblock",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_desblockhex",
+      "target": "src_operations_des_parsehex",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_fail",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_feistel",
+      "target": "src_operations_des_permute",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_parsehex",
+      "target": "src_operations_des_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_subkeys",
+      "target": "src_operations_des_buffertobigint",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_subkeys",
+      "target": "src_operations_des_permute",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_subkeys",
+      "target": "src_operations_des_rotate28",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_tripleblock",
+      "target": "src_operations_des_desblock",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_tripledesblockhex",
+      "target": "src_operations_des_parsehex",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_tripledesblockhex",
+      "target": "src_operations_des_tripleblock",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des_unpad",
+      "target": "src_operations_des_fail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/des.js",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccdecryptjourney",
+      "target": "src_operations_ecc_requiresession",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccdecryptjourney",
+      "target": "src_operations_ecc_decodepayload",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccdecryptjourney",
+      "target": "src_operations_ecc_frombase64url",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccdecryptjourney",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccdecryptjourney",
+      "target": "src_operations_ecc_derivekey",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccdecryptjourney",
+      "target": "src_operations_ecc_stage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccencryptjourney",
+      "target": "src_operations_ecc_tobase64url",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccencryptjourney",
+      "target": "src_operations_ecc_stage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccencryptjourney",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccencryptjourney",
+      "target": "src_operations_ecc_requiresession",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccencryptjourney",
+      "target": "src_operations_ecc_frombase64url",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccencryptjourney",
+      "target": "src_operations_ecc_derivekey",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_createeccsession",
+      "target": "src_operations_ecc_tobase64url",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_decodepayload",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_frombase64url",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc_requiresession",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash_createhashjourney",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash_createhashjourney",
+      "target": "src_operations_hash_paddingsummary",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash_createhashjourney",
+      "target": "src_operations_hash_stage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/operations/hash.js",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
       "source": "test_app_test_submit",
       "target": "test_app_test_waitforrender",
       "relation": "calls",
@@ -2666,6 +4390,30 @@
       "weight": 1.0
     },
     {
+      "source": "test_home_test_submit",
+      "target": "test_home_test_wait",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "test/home.test.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "test_home_test_type",
+      "target": "test_home_test_wait",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "test/home.test.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
       "source": "src_app_app",
       "target": "src_app_app_close",
       "relation": "contains",
@@ -2674,7 +4422,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L75",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_app_enteroperation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_app_gohome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L137",
       "weight": 1.0
     },
     {
@@ -2686,19 +4458,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L80",
+      "source_location": "L138",
       "weight": 1.0
     },
     {
       "source": "src_app_app",
-      "target": "src_app_app_runconversion",
+      "target": "src_app_app_run",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/app.js",
-      "source_location": "L88",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_app_reuseandswitch",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/app.js",
+      "source_location": "L157",
       "weight": 1.0
     },
     {
@@ -2726,6 +4510,18 @@
       "weight": 1.0
     },
     {
+      "source": "test_home_test",
+      "target": "test_home_test_submit",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "test/home.test.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "index",
       "target": "src_app_app",
       "relation": "imports",
@@ -2739,7 +4535,7 @@
     },
     {
       "source": "index",
-      "target": "src_banner_playbanneranimation",
+      "target": "src_banner_getbanner",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2762,56 +4558,20 @@
       "weight": 1.0
     },
     {
+      "source": "index",
+      "target": "src_terminal_input_handoffinputtoink",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "index.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "package",
       "target": "ref_chalk",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L36",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_figlet",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L37",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_ink",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L38",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_jimp",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L39",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_react",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2823,7 +4583,31 @@
     },
     {
       "source": "package",
-      "target": "ref_ink_testing_library",
+      "target": "ref_figlet",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "ref_ink",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "ref_jimp",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2831,6 +4615,30 @@
       "context": "import",
       "source_file": "package.json",
       "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "ref_react",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "ref_ink_testing_library",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "package.json",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -2894,6 +4702,126 @@
       "weight": 1.0
     },
     {
+      "source": "src_app",
+      "target": "src_operations_hash_createhashjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_des_createdesjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_des_default_3des_settings",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_des_default_des_settings",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_ecc_createeccdecryptjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_ecc_createeccencryptjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_ecc_createeccsession",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_banner_renderanimationframe",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_banner_renderstaticbanner",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "src_journey",
       "target": "src_converter_convertinteger",
       "relation": "imports",
@@ -2951,6 +4879,30 @@
       "context": "import",
       "source_file": "src/journey.js",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/operations/des.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3050,6 +5002,102 @@
       "weight": 1.0
     },
     {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_hash_createhashjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_des_createdesjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_des_desblockhex",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_des_tripledesblockhex",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_ecc_createeccdecryptjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_ecc_createeccencryptjourney",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_ecc_createeccsession",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_home_test",
+      "target": "src_app_logolooptimeline",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/home.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "test_journey_test",
       "target": "src_journey_ascii_mode",
       "relation": "imports",
@@ -3070,6 +5118,18 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "test/journey.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_terminal_input_test",
+      "target": "src_terminal_input_handoffinputtoink",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/terminal-input.test.js",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -3119,6 +5179,18 @@
       "context": "import",
       "source_file": "index.js",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "index",
+      "target": "src_terminal_input",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "index.js",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -3182,6 +5254,54 @@
       "weight": 1.0
     },
     {
+      "source": "src_app",
+      "target": "src_operations_hash",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_des",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_operations_ecc",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_banner",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/app.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "src_banner",
       "target": "ref_jimp",
       "relation": "imports_from",
@@ -3227,6 +5347,30 @@
       "context": "import",
       "source_file": "src/journey.js",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_hash",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/operations/des.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_hash",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3290,6 +5434,78 @@
       "weight": 1.0
     },
     {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_hash",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_des",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_crypto_operations_test",
+      "target": "src_operations_ecc",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/crypto-operations.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_home_test",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/home.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_home_test",
+      "target": "ref_ink_testing_library",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/home.test.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_home_test",
+      "target": "src_app",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/home.test.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "test_journey_test",
       "target": "src_journey",
       "relation": "imports_from",
@@ -3298,6 +5514,18 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "test/journey.test.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_terminal_input_test",
+      "target": "src_terminal_input",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "test/terminal-input.test.js",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -3544,6 +5772,94 @@
       "weight": 1.0
     },
     {
+      "source": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07",
+      "target": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_q_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_q_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07",
+      "target": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_answer",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_q_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07",
+      "target": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_q_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07",
+      "target": "graphify_out_memory_query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07_source_nodes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_082507_f412711a_\u0e2d\u0e22\u0e32\u0e01\u0e23_\u0e19\u0e40\u0e2d\u0e07\u0e22_\u0e07\u0e44\u0e07.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne",
+      "target": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_q_cli_renders_then_exits_immediately_after_the_banner_animation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_q_cli_renders_then_exits_immediately_after_the_banner_animation",
+      "target": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_answer",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_q_cli_renders_then_exits_immediately_after_the_banner_animation",
+      "target": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_outcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_q_cli_renders_then_exits_immediately_after_the_banner_animation",
+      "target": "graphify_out_memory_query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne_source_nodes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/memory/query_20260922_084004_84d97d54_cli_renders_then_exits_immediately_after_the_banne.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
       "source": "index",
       "target": "index_main",
       "relation": "contains",
@@ -3551,7 +5867,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "index.js",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -3562,7 +5878,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "index.js",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3639,7 +5955,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L33",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -3650,7 +5966,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -3661,7 +5977,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L35",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -3683,7 +5999,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L42",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -3738,7 +6054,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L36",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -3749,7 +6065,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L37",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -3760,7 +6076,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L38",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -3771,7 +6087,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L39",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -3782,7 +6098,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L40",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -3793,7 +6109,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L43",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -4150,6 +6466,17 @@
     },
     {
       "source": "project_plan_stackoverfolk_project_plan",
+      "target": "project_plan_15_cryptography_lab_implementation_2026_09_23",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "PROJECT_PLAN.md",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "project_plan_stackoverfolk_project_plan",
       "target": "project_plan_4_cryptography_terminology_and_safety_rules",
       "relation": "contains",
       "_origin": "ast",
@@ -4194,13 +6521,24 @@
     },
     {
       "source": "readme_stackoverfolk",
+      "target": "readme_run",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_stackoverfolk",
       "target": "readme_controls",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L18",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -4211,12 +6549,12 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L35",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
       "source": "readme_stackoverfolk",
-      "target": "readme_run",
+      "target": "readme_labs",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4227,46 +6565,13 @@
     },
     {
       "source": "src_app",
-      "target": "src_app_modechoices",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app.js",
-      "source_location": "L16",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app",
-      "target": "src_app_rail",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app.js",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app",
-      "target": "src_app_focuscard",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app.js",
-      "source_location": "L38",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app",
       "target": "src_app_basepicker",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L48",
+      "source_location": "L101",
       "weight": 1.0
     },
     {
@@ -4277,7 +6582,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L59",
+      "source_location": "L109",
       "weight": 1.0
     },
     {
@@ -4288,7 +6593,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L7",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_views",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_items",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -4299,7 +6626,106 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/app.js",
-      "source_location": "L8",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_modechoices",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_truncate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_companion",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_logolooptimeline",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_animatedlogo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_home",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_rail",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_journey",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_app_cryptojourney",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app.js",
+      "source_location": "L139",
       "weight": 1.0
     },
     {
@@ -4677,6 +7103,490 @@
       "weight": 1.0
     },
     {
+      "source": "src_operations_des",
+      "target": "src_operations_des_sboxes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_default_des_settings",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_default_3des_settings",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_fail",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_permute",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_rotate28",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_hex",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_buffertobigint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_biginttobuffer",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_ip",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_xorbuffers",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_parsehex",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_subkeys",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_feistel",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_desblock",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_desblockhex",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_tripleblock",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_fp",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_tripledesblockhex",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_pad",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_unpad",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_stage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_createdesjourney",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_e",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_p",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_pc1",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_pc2",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_des",
+      "target": "src_operations_des_shifts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/des.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_hkdf_info",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_createeccdecryptjourney",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_privatekeys",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_stage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_tobase64url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_frombase64url",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_derivekey",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_requiresession",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_decodepayload",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_createeccsession",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_ecc",
+      "target": "src_operations_ecc_createeccencryptjourney",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/ecc.js",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash",
+      "target": "src_operations_hash_stage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/hash.js",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash",
+      "target": "src_operations_hash_paddingsummary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/hash.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash",
+      "target": "src_operations_hash_cryptooperationerror",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/hash.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash",
+      "target": "src_operations_hash_createhashjourney",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/hash.js",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_terminal_input",
+      "target": "src_terminal_input_handoffinputtoink",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/terminal-input.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
       "source": "test_app_test",
       "target": "test_app_test_waitforrender",
       "relation": "contains",
@@ -4710,6 +7620,50 @@
       "weight": 1.0
     },
     {
+      "source": "test_home_test",
+      "target": "test_home_test_wait",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/home.test.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "test_home_test",
+      "target": "test_home_test_type",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/home.test.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_terminal_input_test",
+      "target": "test_terminal_input_test_resume",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/terminal-input.test.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_terminal_input_test",
+      "target": "test_terminal_input_test_pause",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/terminal-input.test.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "src_converter_conversionerror",
       "target": "src_converter_conversionerror_constructor",
       "relation": "method",
@@ -4718,6 +7672,17 @@
       "confidence_score": 1.0,
       "source_file": "src/converter.js",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_operations_hash_cryptooperationerror",
+      "target": "src_operations_hash_cryptooperationerror_constructor",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/operations/hash.js",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4773,7 +7738,31 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "index.js",
-      "source_location": "L29",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_animatedlogo",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "src/app.js",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_app",
+      "target": "src_app_home",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "src/app.js",
+      "source_location": "L218",
       "weight": 1.0
     },
     {
@@ -4785,19 +7774,19 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "src/app.js",
-      "source_location": "L186",
+      "source_location": "L232",
       "weight": 1.0
     },
     {
       "source": "src_app_app",
-      "target": "src_app_focuscard",
+      "target": "src_app_journey",
       "relation": "indirect_call",
       "_origin": "ast",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "src/app.js",
-      "source_location": "L190",
+      "source_location": "L234",
       "weight": 1.0
     },
     {
@@ -4811,8 +7800,20 @@
       "source_file": "test/app.test.js",
       "source_location": "L20",
       "weight": 1.0
+    },
+    {
+      "source": "test_home_test",
+      "target": "src_app_app",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "argument",
+      "source_file": "test/home.test.js",
+      "source_location": "L20",
+      "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9eb4a3a9ea589f902322290a767af7891144140e"
+  "built_at_commit": "37f24e4ae5251c3adcf84492150b37c889b45afa"
 }

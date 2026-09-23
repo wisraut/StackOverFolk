@@ -1,7 +1,7 @@
 # StackOverFolk — Project Plan
 
-> Status: base-converter foundation implemented; cryptography labs remain planned
-> Last updated: 2026-09-22
+> Status: base/ASCII and cryptography lab vertical slices implemented
+> Last updated: 2026-09-23
 > Purpose: shared roadmap and handoff document for future development sessions and models
 
 ## 1. Project summary
@@ -389,6 +389,20 @@ labs:
 - Tests cover numeric precision, ASCII boundaries, journey data, animation
   milestones/final frame, and a basic Ink interaction.
 
-The next approved work remains SHA-256/512, then DES/3DES legacy education,
-then ECC hybrid and toy-curve labs. None of those cryptography features is
-implemented by this baseline.
+## 15. Cryptography lab implementation (2026-09-23)
+
+- Home now opens before input and directly lists Base/ASCII, SHA-256/512,
+  DES/3DES encrypt/decrypt, and ECC hybrid encrypt/decrypt.
+- The shared renderer supports Guided, Quick Result, and Full Trace views,
+  persistent next input, result reuse, and direct encrypt/decrypt switching.
+- SHA-256/512 journeys show UTF-8 bytes, padding, blocks, compression summary,
+  and the real digest from Node's crypto implementation.
+- DES uses a traceable educational implementation with CBC and PKCS#7;
+  three-key 3DES composes it as EDE. Both display permanent legacy warnings.
+- ECC hybrid uses P-256 ECDH, HKDF-SHA256, and AES-256-GCM. Payloads are
+  versioned Base64url JSON and private keys are not displayed.
+- Automated tests cover published SHA and DES vectors, DES/3DES round trips,
+  ECC authenticated round trips, operation selection, and repeated input.
+
+Remaining polish is optional: richer per-round expansion, input history, and a
+modern AES-GCM comparison lab.
