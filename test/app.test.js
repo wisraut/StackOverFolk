@@ -18,6 +18,7 @@ async function submit(app) {
 
 test('Ink app keeps the current configuration and renders a conversion result', async () => {
   const app = render(React.createElement(App));
+  await submit(app);
   await type(app, '42');
   await submit(app);
   assert.match(app.lastFrame(), /การตั้งค่าปัจจุบัน: Decimal \(10\)  →  Binary \(2\)/);
@@ -27,6 +28,7 @@ test('Ink app keeps the current configuration and renders a conversion result', 
 
 test('uppercase ASCII remains input instead of triggering a shortcut', async () => {
   const app = render(React.createElement(App, { initialFrom: 'ascii', initialTo: 16 }));
+  await submit(app);
   await type(app, 'S');
   await submit(app);
   assert.match(app.lastFrame(), /การตั้งค่าปัจจุบัน: ASCII  →  Hexadecimal \(16\)/);
@@ -36,6 +38,7 @@ test('uppercase ASCII remains input instead of triggering a shortcut', async () 
 
 test('swap reuses the latest output as the next input', async () => {
   const app = render(React.createElement(App));
+  await submit(app);
   await type(app, '10');
   await submit(app);
   await type(app, String.fromCharCode(19)); // Ctrl+S
@@ -46,6 +49,7 @@ test('swap reuses the latest output as the next input', async () => {
 
 test('changing only the target recomputes the previous source input', async () => {
   const app = render(React.createElement(App));
+  await submit(app);
   await type(app, '10');
   await submit(app);
   await type(app, String.fromCharCode(20)); // Ctrl+T
@@ -58,6 +62,7 @@ test('changing only the target recomputes the previous source input', async () =
 
 test('a new value uses the same source and target without reopening setup', async () => {
   const app = render(React.createElement(App));
+  await submit(app);
   await type(app, '10');
   await submit(app);
   await type(app, '7');

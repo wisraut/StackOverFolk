@@ -1,7 +1,7 @@
 {
   "name": "stackoverfolk",
   "version": "1.0.0",
-  "description": "An interactive number-base and ASCII conversion journey for the terminal",
+  "description": "An interactive conversion and cryptography journey for the terminal",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -27,6 +27,10 @@
     "cli",
     "number-base",
     "ascii",
+    "cryptography",
+    "sha256",
+    "des",
+    "ecc",
     "education",
     "terminal"
   ],

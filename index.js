@@ -3,7 +3,7 @@
 import React from 'react';
 import { render } from 'ink';
 import { App } from './src/app.js';
-import { playBannerAnimation, printBanner } from './src/banner.js';
+import { getBanner, printBanner } from './src/banner.js';
 import { handoffInputToInk } from './src/terminal-input.js';
 
 function shouldAnimate(args) {
@@ -21,14 +21,12 @@ async function main() {
     return;
   }
 
-  if (shouldAnimate(args)) {
-    await playBannerAnimation({ reducedMotion: process.env.STACKOVERFOLK_REDUCED_MOTION === '1' });
-  } else {
-    await printBanner();
-  }
-
   const releaseInput = handoffInputToInk();
-  const application = render(React.createElement(App));
+  const application = render(React.createElement(App, {
+    banner: await getBanner(),
+    animateLogo: shouldAnimate(args),
+    reducedMotion: process.env.STACKOVERFOLK_REDUCED_MOTION === '1',
+  }));
   try {
     await application.waitUntilExit();
   } finally {
