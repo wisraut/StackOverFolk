@@ -25,6 +25,11 @@ const ITEMS = [
 const palette = { green: '#45A164', gold: '#E0A82E', blue: '#4EA5D9', gray: '#8B949E', red: '#E5534B' };
 
 function modeChoices(excluding) { return MODES.filter((mode) => mode !== excluding); }
+function nextMode(current, excluding) {
+  const choices = modeChoices(excluding);
+  const index = choices.indexOf(current);
+  return choices[(index + 1) % choices.length];
+}
 function truncate(value, length = 72) { const text = String(value); return text.length > length ? `${text.slice(0, length - 1)}…` : text; }
 function companion(id) {
   return ({ 'des-encrypt': 'des-decrypt', 'des-decrypt': 'des-encrypt', '3des-encrypt': '3des-decrypt', '3des-decrypt': '3des-encrypt', 'ecc-encrypt': 'ecc-decrypt', 'ecc-decrypt': 'ecc-encrypt' })[id];
@@ -103,7 +108,7 @@ function BasePicker({ kind, current, other, cursor }) {
   return React.createElement(Box, { flexDirection: 'column', marginTop: 1 },
     React.createElement(Text, { color: palette.gold, bold: true }, `เลือกโหมด${kind === 'from' ? 'ต้นทาง' : 'ปลายทาง'}`),
     ...modeChoices(other).map((choice, index) => React.createElement(Text, { key: String(choice), color: index === cursor ? palette.gold : undefined }, `${index === cursor ? '›' : ' '} ${formatMode(choice)}${choice === current ? ' (current)' : ''}`)),
-    React.createElement(Text, { color: palette.gray }, '↑/↓ เลือก · Enter ยืนยัน · Esc ยกเลิก'),
+    React.createElement(Text, { color: palette.gray }, '↑/↓ เลือก · Enter ยืนยัน · Backspace/Esc ย้อนกลับ'),
   );
 }
 
@@ -138,6 +143,20 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
   function enterOperation(next) { setOperation(next); setScreen('operation'); setInput(''); setJourney(null); setError(''); setStageIndex(0); setBackspaceArmed(false); }
   function goHome() { setScreen('home'); setJourney(null); setInput(''); setError(''); setPicker(null); setEditing(null); setBackspaceArmed(false); }
   function openPicker(kind, both = false) { const current = kind === 'from' ? from : to; setPicker(kind); setConfigureBoth(both); setPickerIndex(Math.max(0, modeChoices(kind === 'from' ? to : from).indexOf(current))); }
+  function applyTarget(selected) {
+    setTo(selected); setError('');
+    if (!lastInput) return;
+    try {
+      const next = createConversionJourney(lastInput, from, selected);
+      setJourney(next); setStageIndex(next.stages.length - 1);
+    } catch (caught) {
+      setError(caught.message);
+    }
+  }
+  function cycleSource() {
+    setFrom(nextMode(from, to)); setJourney(null); setLastInput(''); setError('');
+  }
+  function cycleTarget() { applyTarget(nextMode(to, from)); }
   function cryptoJourney(value, id = operation) {
     if (id === 'sha256' || id === 'sha512') return createHashJourney(value, id);
     if (id.startsWith('des-') || id.startsWith('3des-')) {
@@ -186,13 +205,13 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
       return;
     }
     if (picker) {
-      if (key.escape) return setPicker(null);
+      if (key.escape || key.backspace || key.delete) { setPicker(null); setConfigureBoth(false); return; }
       if (key.upArrow) return setPickerIndex((value) => Math.max(0, value - 1));
       if (key.downArrow) return setPickerIndex((value) => Math.min(pickerChoices.length - 1, value + 1));
       if (key.return) {
         const selected = pickerChoices[pickerIndex]; setError('');
         if (picker === 'from') { setFrom(selected); if (configureBoth) { const targets = modeChoices(selected); setJourney(null); setLastInput(''); setInput(''); setPicker('to'); setPickerIndex(Math.max(0, targets.indexOf(to))); setConfigureBoth(false); } else setPicker(null); }
-        else { setTo(selected); setPicker(null); if (lastInput) try { const next = createConversionJourney(lastInput, from, selected); setJourney(next); setStageIndex(next.stages.length - 1); } catch (caught) { setError(caught.message); } }
+        else { applyTarget(selected); setPicker(null); }
       }
       return;
     }
@@ -219,8 +238,9 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
     if (key.ctrl && character === 'd' && journey) { setShowDetails((value) => !value); return; }
     if (key.ctrl && character === 'a' && companion(operation)) return reuseAndSwitch();
     if (operation === 'base' && key.ctrl && character === 's') { const reusable = journey?.rawOutput ?? ''; setFrom(to); setTo(from); if (reusable) { setInput(reusable); setJourney(null); setLastInput(''); } setError(''); return; }
-    if (operation === 'base' && key.ctrl && character === 't') return openPicker('to');
-    if (operation === 'base' && key.ctrl && character === 'b') return openPicker('from', true);
+    if (operation === 'base' && key.ctrl && character === 't') return cycleTarget();
+    if (operation === 'base' && key.ctrl && character === 'b') return cycleSource();
+    if (operation === 'base' && key.ctrl && character === 'e') return openPicker('from', true);
     if (/^(3?des)-/.test(operation) && key.ctrl && (character === 'k' || character === 'i')) { const field = character === 'k' ? 'keyHex' : 'ivHex'; setEditing(field); setEditValue(''); setError(''); return; }
     if (!key.ctrl && !key.meta && character) { setBackspaceArmed(false); setInput((value) => value + character); setError(''); }
   });
@@ -247,7 +267,7 @@ export function App({ initialFrom = 10, initialTo = 2, onExit, banner = null, an
       error && React.createElement(Text, { color: palette.red }, error),
       !editing && React.createElement(Box, { marginTop: 1 }, React.createElement(Text, { color: palette.gold, bold: true }, 'กรอกค่า  '), React.createElement(Text, null, `${input || ' '}▌`)),
       React.createElement(Text, { color: palette.gray }, `มุมมอง: ${VIEWS[view]} · Enter ทำงาน · Tab ใช้ผลเป็น input ถัดไป · ←/→ Journey · Ctrl+M เปลี่ยนมุมมอง · Ctrl+D รายละเอียด`),
-      React.createElement(Text, { color: palette.gray }, operation === 'base' ? 'Ctrl+S สลับ · Ctrl+T ปลายทาง · Ctrl+B เลือกฐาน · Backspace×2 หน้าเลือก · Ctrl+Q ออก' : `${companion(operation) ? 'Ctrl+A สลับ Encrypt/Decrypt · ' : ''}${isDes ? 'Ctrl+K Key · Ctrl+I IV · ' : ''}Backspace×2 หน้าเลือก · Ctrl+Q ออก`),
+      React.createElement(Text, { color: palette.gray }, operation === 'base' ? 'Ctrl+B ต้นทางถัดไป · Ctrl+T ปลายทางถัดไป · Ctrl+E เลือกแบบเต็ม · Ctrl+S สลับ · Backspace×2 หน้าเลือก · Ctrl+Q ออก' : `${companion(operation) ? 'Ctrl+A สลับ Encrypt/Decrypt · ' : ''}${isDes ? 'Ctrl+K Key · Ctrl+I IV · ' : ''}Backspace×2 หน้าเลือก · Ctrl+Q ออก`),
     ),
   );
 }

@@ -1,17 +1,17 @@
 # Graph Report - StackOverFolk  (2026-09-23)
 
 ## Corpus Check
-- 29 files · ~29,042 words
+- 29 files · ~29,180 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 3)
 
 ## Summary
-- 247 nodes · 432 edges · 19 communities (15 shown, 4 thin omitted)
+- 251 nodes · 441 edges · 20 communities (16 shown, 4 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7fbf9007`
+- Built from commit: `02326855`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -35,9 +35,10 @@
 - ecc.js
 - Q: อยากรันเองยังไง
 - Q: CLI renders then exits immediately after the banner animation
+- home.test.js
 
 ## God Nodes (most connected - your core abstractions)
-1. `App()` - 26 edges
+1. `App()` - 29 edges
 2. `StackOverFolk — Project Plan` - 16 edges
 3. `createDesJourney()` - 13 edges
 4. `CryptoOperationError` - 12 edges
@@ -57,33 +58,33 @@
   index.js → src/banner.js
 - `main()` --calls--> `handoffInputToInk()`  [EXTRACTED]
   index.js → src/terminal-input.js
-- `AnimatedLogo()` --calls--> `renderAnimationFrame()`  [EXTRACTED]
-  src/app.js → src/banner.js
+- `App()` --calls--> `createConversionJourney()`  [EXTRACTED]
+  src/app.js → src/journey.js
 
 ## Import Cycles
 - None detected.
 
-## Communities (19 total, 4 thin omitted)
+## Communities (20 total, 4 thin omitted)
 
 ### Community 0 - "package.json"
 Cohesion: 0.07
 Nodes (29): author, bin, stackoverfolk, dependencies, chalk, figlet, ink, jimp (+21 more)
 
 ### Community 1 - "banner.js"
-Cohesion: 0.16
-Nodes (20): main(), shouldAnimate(), createBanner(), cropReveal(), deterministicNoise(), __dirname, __filename, findInkBounds() (+12 more)
+Cohesion: 0.15
+Nodes (21): main(), shouldAnimate(), AnimatedLogo(), createBanner(), cropReveal(), deterministicNoise(), __dirname, __filename (+13 more)
 
 ### Community 2 - "app.js"
-Cohesion: 0.11
-Nodes (27): ink-testing-library, react, AnimatedLogo(), App(), cryptoJourney(), openPicker(), reuseAndSwitch(), run() (+19 more)
+Cohesion: 0.13
+Nodes (22): App(), applyTarget(), cryptoJourney(), cycleSource(), cycleTarget(), openPicker(), reuseAndSwitch(), run() (+14 more)
 
 ### Community 3 - "StackOverFolk — Project Plan"
 Cohesion: 0.06
 Nodes (32): 10. Delivery phases, 11. Acceptance criteria, 12. Instructions for future models and development sessions, 13. Open decisions, 14. Implemented baseline (2026-09-22), 15. Cryptography lab implementation (2026-09-23), 1. Project summary, 2. Current project state (+24 more)
 
 ### Community 4 - "journey.js"
-Cohesion: 0.22
-Nodes (20): assertBase(), ConversionError, convert, convertInteger(), decodeAscii(), encodeAscii(), escapeAscii(), formatAsciiCode() (+12 more)
+Cohesion: 0.24
+Nodes (19): assertBase(), ConversionError, convert, convertInteger(), decodeAscii(), encodeAscii(), escapeAscii(), formatAsciiCode() (+11 more)
 
 ### Community 5 - "des.js"
 Cohesion: 0.13
@@ -125,6 +126,10 @@ Nodes (4): Answer, Outcome, Q: อยากรันเองยังไง, So
 Cohesion: 0.40
 Nodes (4): Answer, Outcome, Q: CLI renders then exits immediately after the banner animation, Source Nodes
 
+### Community 19 - "home.test.js"
+Cohesion: 0.27
+Nodes (9): ink-testing-library, react, logoLoopTimeline(), submit(), type(), waitForRender(), submit(), type() (+1 more)
+
 ## Knowledge Gaps
 - **94 isolated node(s):** `name`, `version`, `description`, `main`, `type` (+89 more)
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 115 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
@@ -141,9 +146,9 @@ Nodes (4): Answer, Outcome, Q: CLI renders then exits immediately after the bann
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `App()` connect `app.js` to `ecc.js`, `banner.js`, `journey.js`, `des.js`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `react` connect `app.js` to `package.json`, `banner.js`?**
+- **Why does `App()` connect `app.js` to `banner.js`, `journey.js`, `des.js`, `ecc.js`, `home.test.js`?**
+  _High betweenness centrality (0.059) - this node is a cross-community bridge._
+- **Why does `react` connect `home.test.js` to `package.json`, `banner.js`, `app.js`?**
   _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **Why does `chalk` connect `package.json` to `banner.js`, `app.js`?**
   _High betweenness centrality (0.033) - this node is a cross-community bridge._
@@ -154,4 +159,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `app.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.10606060606060606 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13230769230769232 - nodes in this community are weakly interconnected._
